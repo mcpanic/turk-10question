@@ -29,7 +29,7 @@ while($entry = $result->fetch_assoc()){
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Detect Personality from Video</title>
+    <title>Perceived Personality Study</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">		
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -145,7 +145,7 @@ while($entry = $result->fetch_assoc()){
 		<br/>
 		<div id="video-player" class="row">
 			<h3 class="instruction" class="col-sm-12 col-md-12 col-lg-12">
-				2. Now, watch these video clips carefully; we will ask you about 
+				2. Now, watch this video clip carefully; we will ask you about 
 				how you’ve perceived the personality of the people appearing in the video.
 			</h3>
 			<br/>
@@ -156,9 +156,9 @@ while($entry = $result->fetch_assoc()){
 		</div>
 		<br/>
 		<div id="questions" class="row">
-			<h3>3. Answer the questionnaire</h3>
+			<h3>3. How do you think?</h3>
 			<div class="instruction col-sm-12 col-md-12 col-lg-12">
-				How well do the following statements describe the interviewer and the interviewee?
+				How well do the following statements describe the interviewer and the interviewee in the video? 
 			</div>
 <?php
     	$questionArray = array(
@@ -234,7 +234,7 @@ while($entry = $result->fetch_assoc()){
 			<div class="disclaimer">
 				The goal of this study is to understand how people perceive the personality of the others. <br/>
 				This study is a part of research conducted at Massachusetts Institute of Technology. <br/>
-				Your participation is voluntary and you have the right to stop at any time. Please proceed if you agree.
+				Your participation is voluntary and you have the right to stop at any time. 
 			</div>
 
 			<button id='taskSub' type="submit" class="btn btn-lg btn-primary disabled" style="float:right" disabled="disabled">Submit</button>
