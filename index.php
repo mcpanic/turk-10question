@@ -48,9 +48,9 @@ while($entry = $result->fetch_assoc()){
         	padding: 10px;
         	margin: 20px;
         }
-		#video-player, #questions, #demographics, #final{
-			/*display: none;*/
-		}
+		#inst, #video-player, #questions, #demographics, #final{
+			display: none;
+		}	
 		.interviewee-name {
 			font-weight: bold;
 			font-size: 16px;
@@ -160,7 +160,7 @@ while($entry = $result->fetch_assoc()){
 			</h2>
 			<br/>
 			<div>
-				We want to understand how people perceive the personality of someone else. <br/>
+				We want to understand how people perceive the personality of the others. <br/>
 				This questionnaire will gather data to help answer that question.
 			</div>
 		</div>
@@ -197,43 +197,53 @@ while($entry = $result->fetch_assoc()){
 			</div>
 		</div>
 		<br/>
-		<div id="video-player" class="row">
+		<div id="inst" class="row">
 			<h3 class="instruction">
-				2. Now, watch the video. 
+				2. Read the instruction.
 			</h3>
-			<div>
-				But before watching, please read the instruction below carefully. 
-			</div>
-			<br/>
 			<ul>
-				<li>
-				We will ask you 10 questions (below) for both the interviewee and the interviewer, in a scale one to five <i>(disagree strongly to agree strongly)</i>. When watching, please think ahead how you would rate the personality of the people appearing in the video. <u>This is important to remember</u>: We are asking you to tell us <strong><i>what you think about the personality of the person based <u>just</u> on what you see in the video</i></strong>. In other words, we are not asking you to guess their <i>true</i> personality in their real lives.<br/>
-				</li>
-				<li>
-				To ensure that you are concentrating on this task, we will pause the video for several times at random moments, and measure how long it takes you to get it to continue playing (by clicking anywhere in the embedded video). Please do this as soon as possible so that we know you are taking this job seriously. <strong><i>The total duration of pauses will be one of the factors when we give you our feedback. </i></strong>:)
-				</li>
-			</ul>
+			<li>
+			<strong>Think ahead.</strong> We will ask you 10 questions (below) about <i>both</i> the interviewee and the interviewer. <br/>
+Read them <i>now</i>, and think ahead how you would answer each question <i>as you watch the video</i>.
+			</li>
 			<br/>
+			<li>
+			<strong>Avoid preconception.</strong> Please answer each question <i>based just on what you see in the video.</i> <br/>
+In other words, avoid answering them based on your prior knowledge of the person.
+			</li>
+			<br/>
+			<li>
+			<strong>Concentrate.</strong> We will pause the video for several times. <i>Unpause it as quickly as you can.</i> <br/>
+The total duration of pauses will be a part of your feedback.
+			</li>
+			<br/>
+			</ul>
 			<div>
-				<strong>The 10 questions you will answer:</strong><br/>
+				<strong>The 10 questions:</strong><br/>
 				How well do the following statements describe the interviewer and the interviewee in the video? <br/>
+				(Adjust your browser so that these questions are visible while watching the video.) <br/><br/>
 				  The interviewee (or interviewer) is:<br/>
+				<div class="col-sm-6 col-md-6 col-lg-6">
 				    1. ... is reserved<br/>
 				    2. ... is generally trusting<br/>
 				    3. ... tends to be lazy<br/>
 				    4. ... is relaxed, handles stress well<br/>
-				    5. ... has few artistic interests<br/>
+				    5. ... has few artistic interests<br/>					
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6">
 				    6. ... is outgoing, sociable<br/>
 				    7. ... tends to find fault with others<br/>
 				    8. ... does a thorough job<br/>
 				    9. ... gets nervous easily<br/>
-				    10. ... has an active imagination<br/>
-			</div>
-			<br/>
-			<div>
-				We strongly recommend adjusting your browser so that the 10 questions are visible while the video is playing, checking the questions periodically, and thinking about them as you watch the video.
-			</div>
-			<br/>
+				    10. ... has an active imagination<br/>					
+				</div>				
+			</div>			
+		</div>
+		<br/>
+		<div id="video-player" class="row">
+			<h3 class="instruction">
+				3. Now, watch the video. 
+			</h3>
 			<div id="ytplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
 			<!-- <iframe id="ytplayer" type="text/html" width="640" height="390"
 		  src="https://www.youtube.com/v/<?php echo $video['slug']; ?>?enablejsapi=1&version=3"
@@ -242,7 +252,7 @@ while($entry = $result->fetch_assoc()){
 		</div>
 		<br/>
 		<div id="questions" class="row">
-			<h3>3. What do you think?</h3>
+			<h3 class="instruction">4. Answer the 10 questions.</h3>
 			<div class="instruction col-sm-12 col-md-12 col-lg-12">
 				How well do the following statements describe the interviewee and the interviewer in the video?
 			</div>
@@ -275,7 +285,7 @@ while($entry = $result->fetch_assoc()){
 		echo "<div class='col-sm-6 col-md-6 col-lg-6'>";
 		echo "<div class='question-header'><div><span class='interviewer-photo'></span> <br/><span class='desc'>Interviewer (reporter)</span></div></div>";
 	    for($i=0; $i<10; $i++){
-	    	echo "<div class='question'><div class='question-text'>&nbsp;</div>";
+	    	echo "<div class='question'><div class='question-text'>" . $questionArray[$i] . "</div>";
 	    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='1'/> Disagree strongly</label><br/>";
 	    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='2'/> Disagree a little</label><br/>";
 	    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='3'/> Neither agree nor disagree</label><br/>";
@@ -288,7 +298,7 @@ while($entry = $result->fetch_assoc()){
 		</div>
 		<br/>
 		<div id="demographics" class="row">
-			<h3>4. You're almost done!</h3>
+			<h3>5. You're almost done!</h3>
 			<div>
 				These questions are optional, but we’d appreciate it if you’ve answered them. Please describe yourself by selecting one answer for each question.
 			</div>
@@ -316,7 +326,7 @@ while($entry = $result->fetch_assoc()){
 		</div>
 		<br/>
 		<div id="final" class="row">
-			<h3>5. You are done. Thank you!</h3>
+			<h3>6. You are done. Thank you!</h3>
 			<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
 	        <input type="hidden" name="assignmentId" id="assignmentId" value="">
 			<input type="hidden" name="pausedTimes" id="pausedTimes" value="">
@@ -347,6 +357,10 @@ while($entry = $result->fetch_assoc()){
 	<script type="text/javascript">
 		// var videoPlayed = false;
 
+		function isInt(n) {
+		   return typeof n === 'number' && n % 1 == 0;
+		}
+
 		// Get Parameters
 		var prmstr = window.location.search.substr(1);
 		var prmarr = prmstr.split ("&");
@@ -355,10 +369,20 @@ while($entry = $result->fetch_assoc()){
 			var tmparr = prmarr[i].split("=");
 			params[tmparr[0]] = tmparr[1];
 		}
-		var id = params[id];
+		var id = params["id"];
+		var debug = false;
+		console.log(id, isInt(params["pauses"]), params["debug"] == 1);
+		if (typeof params["debug"] !== "undefined" && params["debug"] == 1)
+			debug = true;
+		console.log("debug", debug);
+		var num_pauses = 5;
+		if (typeof params["pauses"] !== "undefined" && isInt(parseInt(params["pauses"])))
+			num_pauses = parseInt(params["pauses"]);
+		console.log("num pauses", num_pauses);
 		var video = <?php echo json_encode($video); ?>;
 		var pic_url = "http://groups.csail.mit.edu/mug/time10q/mturk/pics/";
 		console.log(video);
+
 		// 2. This code loads the IFrame Player API code asynchronously.
 		// var tag = document.createElement('script');
 		// tag.src = "https://www.youtube.com/iframe_api";
@@ -382,7 +406,7 @@ while($entry = $result->fetch_assoc()){
 	    var player;
 		var vidParams = { allowScriptAccess: "always" };
 		var atts = { id: "ytplayer" };
-		swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&playerapiid=ytplayer&version=3&controls=0&rel=0",
+		swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&playerapiid=ytplayer&version=3&controls=1&rel=0",
                    "ytplayer", "640", "360", "8", null, null, vidParams, atts);
 
 		function onYouTubePlayerReady(playerId) {
@@ -395,7 +419,6 @@ while($entry = $result->fetch_assoc()){
 		      updateytplayerInfo();
 		}		      
 
-		var num_pauses = 20;
 		var duration = 0;
 		var position = 0;
 		var paused_times = [];
@@ -409,6 +432,8 @@ while($entry = $result->fetch_assoc()){
 			    console.log(position, parseInt(duration/num_pauses));
 			    if (duration != 0 && position != 0 && (position % parseInt(duration/num_pauses) == 0)){
 			    	// if the player has been paused already in this position, do not pause again.
+			    	if (duration - position < 10) // ignore the last one.
+			    		return;
 			    	if ($.inArray(position, paused_times) == -1){
 			    		player.pauseVideo();
 			    		paused_times.push(position);
@@ -472,8 +497,8 @@ while($entry = $result->fetch_assoc()){
 	        	$("#errorMsg").show().html("Video finished playing. Please answer the questions below.");
 	        	console.log("video ended, show the questionnaire now.");
 	        	$("#questions").show();
-	        	$("#demographics").show();
-	        	$("#final").show();
+	        	// $("#demographics").show();
+	        	// $("#final").show();
 	        }
 	    }
 
@@ -497,10 +522,12 @@ while($entry = $result->fetch_assoc()){
 	    			$(".q-confidence").show();
 	    			$(".a-confidence").show();
 	    		} else if (selected == "no"){
+	    			$("#inst").show();
 	    			$("#video-player").show();
 	    		}
 	    	});
 	    	$("input[name='confidence']").change(function(){
+	    		$("#inst").show();
 	    		$("#video-player").show();
 	    	});
 
@@ -517,8 +544,19 @@ while($entry = $result->fetch_assoc()){
 			        console.log($('#questions :radio:checked').length, "out of", count, "answered");
 			    } else {
 			    	$("#taskSub").removeClass("disabled").removeAttr("disabled");
+			    	$("#demographics").show();
+	        		$("#final").show();
 			    }
 			});
+
+			if (debug){
+				$("#questions").show();
+				$("#inst").show();
+				$("#video-player").show(); 
+				$("#questions").show(); 
+				$("#demographics").show();
+				$("#final").show();
+			}
 	    });
 	</script>        
 </body>
