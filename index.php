@@ -40,48 +40,86 @@ while($entry = $result->fetch_assoc()){
             padding-bottom: 40px;
             /*width: 800px;*/
         }
-
+		#title h2{
+			text-align: center;
+		}
         #interviewee-prior{
         	border: 1px gray solid;
         	padding: 10px;
         	margin: 20px;
         }
-
-        .interviewee-photo img{
+		#video-player, #questions, #demographics, #final{
+			/*display: none;*/
+		}
+		.interviewee-name {
+			font-weight: bold;
+			font-size: 16px;
+			margin-top: 10px;
+		}
+        .interviewee-photo img, .interviewer-photo img{
         	max-width: 100%;
         	max-height: 150px;
+        }
+        .interviewer-photo img{
+        	width: 120px;
         }
 		.a-doyouknow input[type=radio]{
 			margin-left: 30px;
 		}
 		.a-confidence input[type=radio]{
-			margin-left: 20px;
+			margin-left: 10px;
+			/*margin-right: 5px;*/
 		}
 
 		.q-confidence, .a-confidence{
 			display: none;
 		}
 
+		.a-confidence .left-label, .a-confidence .right-label{
+			font-weight: bold;
+		}
+		#ytplayer{
+			margin-left: 50px;
+		}
+		#errorMsg {
+			display: none;
+			background: yellow;
+			padding: 10px;
+			font-weight: bold;
+		}		
 		.questions {
 			/*margin: 10px;*/
 		}
-
         .question-interviewer, .question-interviewee{
         	margin: 20px;
         }
         .question-header{
-        	height: 150px;
+        	height: 180px;
         	position: relative;
+        	text-align: center;
         }
         .question-header div{
+        	margin-left: 20px;
         	position:absolute; 
         	/*top:50%; */
         	bottom: 0;
         }
+        .question-header .desc{
+        	font-weight: bold;
+        	font-size: 16px;
+        }
         .question-header div img{
         	top:-100px;
         }
-
+		.question-text{
+			font-size: 18px;
+			font-weight: bold;
+			margin-top: 30px;
+			margin-bottom: 5px;
+		}
+        .question input[type=radio]{
+        	margin-left: 20px;
+        }		
         #demographics input[type=radio]{
         	margin-left: 20px;
         }
@@ -98,6 +136,10 @@ while($entry = $result->fetch_assoc()){
 		#taskSub{
 			padding:20px 100px 20px 100px;
 		}
+		label:hover{
+			cursor: pointer;
+			color: steelblue;
+		}
     </style>
 	<!-- <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.22.custom.css" type="text/css" /> -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
@@ -113,8 +155,15 @@ while($entry = $result->fetch_assoc()){
 			<h2 class="col-sm-12 col-md-12 col-lg-12">
 				How do you perceive the personality of the others?
 			</h2>
+			<br/>
+			<div>
+				We want to understand how people perceive the personality of someone else. <br/>
+				This questionnaire will gather data to help answer that question.
+			</div>
 		</div>
-		<h3>1. Before we start...</h3>
+		<div class="row">
+			<h3 class="instruction">1. Before we start...</h3>
+		</div>
 		<div id="interviewee-prior" class="row">
 			<div class="col-sm-3 col-md-3 col-lg-3">
 				<div class="interviewee-photo"></div>
@@ -124,42 +173,77 @@ while($entry = $result->fetch_assoc()){
 			<div class="col-sm-9 col-md-9 col-lg-9">
 				<div class="q-doyouknow">Do you know this person?</div>
 				<div class="a-doyouknow">
-					<input type="radio" name="doyouknow" value="yes"/> Yes
-					<input type="radio" name="doyouknow" value="no"/> No
+					<label><input type="radio" name="doyouknow" value="yes"/> Yes</label>
+					<label><input type="radio" name="doyouknow" value="no"/> No</label>
 				</div>
 				<br/>
 				<div class="q-confidence">
 					How confident are you that you could describe the personality of this person?
 				</div>
 				<div class="a-confidence">
-					not very confident
-					<input type="radio" name="confidence" value="1"/> 1
-					<input type="radio" name="confidence" value="2"/> 2
-					<input type="radio" name="confidence" value="3"/> 3
-					<input type="radio" name="confidence" value="4"/> 4
-					<input type="radio" name="confidence" value="5"/> 5
-					&nbsp;&nbsp;&nbsp;strongly confident
+					<span class="left-label col-sm-3 col-md-3 col-lg-3">not very <br/>confident</span>
+					<span class="col-sm-6 col-md-6 col-lg-6">
+						<label><input type="radio" name="confidence" value="1"/> 1</label>
+						<label><input type="radio" name="confidence" value="2"/> 2</label>
+						<label><input type="radio" name="confidence" value="3"/> 3</label>
+						<label><input type="radio" name="confidence" value="4"/> 4</label>
+						<label><input type="radio" name="confidence" value="5"/> 5</label>
+					</span>
+					<span class="right-label col-sm-3 col-md-3 col-lg-3">strongly <br/>confident</span>
 				</div>
 			</div>
 		</div>
 		<br/>
 		<div id="video-player" class="row">
-			<h3 class="instruction" class="col-sm-12 col-md-12 col-lg-12">
-				2. Now, watch these video clips carefully; we will ask you about 
-				how you’ve perceived the personality of the people appearing in the video.
+			<h3 class="instruction">
+				2. Now, watch the video. 
 			</h3>
+			<div>
+				But before watching, please read the instruction below carefully. 
+			</div>
+			<br/>
+			<ul>
+				<li>
+				We will ask you 10 questions (below) for both the interviewee and the interviewer, in a scale one to five <i>(disagree strongly to agree strongly)</i>. When watching, please think ahead how you would rate the personality of the people appearing in the video. <u>This is important to remember</u>: We are asking you to tell us <strong><i>what you think about the personality of the person based <u>just</u> on what you see in the video</i></strong>. In other words, we are not asking you to guess their <i>true</i> personality in their real lives.<br/>
+				</li>
+				<li>
+				To ensure that you are concentrating on this task, we will pause the video for several times at random moments, and measure how long it takes you to get it to continue playing (by clicking anywhere in the embedded video). Please do this as soon as possible so that we know you are taking this job seriously. <strong><i>The total duration of pauses will be one of the factors when we give you our feedback. </i></strong>:)
+				</li>
+			</ul>
+			<br/>
+			<div>
+				<strong>The 10 questions you will answer:</strong><br/>
+				How well do the following statements describe the interviewer and the interviewee in the video? <br/>
+				  The interviewee (or interviewer) is:<br/>
+				    1. ... is reserved<br/>
+				    2. ... is generally trusting<br/>
+				    3. ... tends to be lazy<br/>
+				    4. ... is relaxed, handles stress well<br/>
+				    5. ... has few artistic interests<br/>
+				    6. ... is outgoing, sociable<br/>
+				    7. ... tends to find fault with others<br/>
+				    8. ... does a thorough job<br/>
+				    9. ... gets nervous easily<br/>
+				    10. ... has an active imagination<br/>
+			</div>
+			<br/>
+			<div>
+				We strongly recommend adjusting your browser so that the 10 questions are visible while the video is playing, checking the questions periodically, and thinking about them as you watch the video.
+			</div>
 			<br/>
 			<div id="ytplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
 			<!-- <iframe id="ytplayer" type="text/html" width="640" height="390"
 		  src="https://www.youtube.com/v/<?php echo $video['slug']; ?>?enablejsapi=1&version=3"
 		  frameborder="0"></iframe> -->
+		    <div id="errorMsg"></div>
 		</div>
 		<br/>
 		<div id="questions" class="row">
-			<h3>3. Answer the questionnaire</h3>
+			<h3>3. What do you think?</h3>
 			<div class="instruction col-sm-12 col-md-12 col-lg-12">
-				How well do the following statements describe the interviewer and the interviewee?
+				How well do the following statements describe the interviewee and the interviewer in the video?
 			</div>
+			<br/>
 <?php
     	$questionArray = array(
     		"1.	... is reserved",
@@ -173,73 +257,77 @@ while($entry = $result->fetch_assoc()){
 			"9.	... gets nervous easily", 
 			"10.	... has an active imagination"
     	);
-		echo "<div class='col-sm-6 col-md-6 col-lg-6'>";
-		echo "<div class='question-header'><div>Interviewer (reporter)</div></div>";
+	    echo "<div class='col-sm-6 col-md-6 col-lg-6'>";
+	    echo "<div class='question-header'><div><span class='interviewee-photo'></span> <br/><span class='desc'>Interviewee</span></div></div>";
 	    for($i=0; $i<10; $i++){
-	    	echo "<div class='question-interviewee'>" . $questionArray[$i] . "<br/>";
-	    	echo "<input type='radio' name='question-interviewee-" . ($i+1) . "' value='$j'/> Disagree strongly<br/>";
-	    	echo "<input type='radio' name='question-interviewee-" . ($i+1) . "' value='$j'/> Disagree a little<br/>";
-	    	echo "<input type='radio' name='question-interviewee-" . ($i+1) . "' value='$j'/> Neither agree nor disagree<br/>";
-	    	echo "<input type='radio' name='question-interviewee-" . ($i+1) . "' value='$j'/> Agree a little<br/>";
-	    	echo "<input type='radio' name='question-interviewee-" . ($i+1) . "' value='$j'/> Agree strongly<br/>";
+	    	echo "<div class='question'><div class='question-text'>" . $questionArray[$i] . "</div>";
+	    	echo "<label><input type='radio' name='question-interviewee-" . ($i+1) . "' value='1'/> Disagree strongly</label><br/>";
+	    	echo "<label><input type='radio' name='question-interviewee-" . ($i+1) . "' value='2'/> Disagree a little</label><br/>";
+	    	echo "<label><input type='radio' name='question-interviewee-" . ($i+1) . "' value='3'/> Neither agree nor disagree</label><br/>";
+	    	echo "<label><input type='radio' name='question-interviewee-" . ($i+1) . "' value='4'/> Agree a little</label><br/>";
+	    	echo "<label><input type='radio' name='question-interviewee-" . ($i+1) . "' value='5'/> Agree strongly</label><br/>";
+	    	echo "</div>";
+	    }	    
+	    echo "</div>";    	
+		echo "<div class='col-sm-6 col-md-6 col-lg-6'>";
+		echo "<div class='question-header'><div><span class='interviewer-photo'></span> <br/><span class='desc'>Interviewer (reporter)</span></div></div>";
+	    for($i=0; $i<10; $i++){
+	    	echo "<div class='question'><div class='question-text'>&nbsp;</div>";
+	    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='1'/> Disagree strongly</label><br/>";
+	    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='2'/> Disagree a little</label><br/>";
+	    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='3'/> Neither agree nor disagree</label><br/>";
+	    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='4'/> Agree a little</label><br/>";
+	    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='5'/> Agree strongly</label><br/>";
 	    	echo "</div>";
 	    }
 	    echo "</div>";
-	    echo "<div class='col-sm-6 col-md-6 col-lg-6'>";
-	    echo "<div class='question-header'><div>Interviewee <span class='interviewee-photo'></span></div></div>";
-	    for($i=0; $i<10; $i++){
-	    	echo "<div class='question-interviewer'>" . $questionArray[$i] . "<br/>";
-	    	echo "<input type='radio' name='question-interviewer-" . ($i+1) . "' value='$j'/> Disagree strongly<br/>";
-	    	echo "<input type='radio' name='question-interviewer-" . ($i+1) . "' value='$j'/> Disagree a little<br/>";
-	    	echo "<input type='radio' name='question-interviewer-" . ($i+1) . "' value='$j'/> Neither agree nor disagree<br/>";
-	    	echo "<input type='radio' name='question-interviewer-" . ($i+1) . "' value='$j'/> Agree a little<br/>";
-	    	echo "<input type='radio' name='question-interviewer-" . ($i+1) . "' value='$j'/> Agree strongly<br/>";
-	    	echo "</div>";
-	    }	    
-	    echo "</div>";
 ?>
 		</div>
-
+		<br/>
 		<div id="demographics" class="row">
 			<h3>4. You're almost done!</h3>
 			<div>
-				These questions are optional, but we’d appreciate it if you’ve answered them. Please describe yourself:
+				These questions are optional, but we’d appreciate it if you’ve answered them. Please describe yourself by selecting one answer for each question.
 			</div>
 			<div><span>Gender:</span>
-				<input type="radio" name="gender" value="male"/> Male
-				<input type="radio" name="gender" value="female"/> Female
+				<label><input type="radio" name="gender" value="male"/> Male</label>
+				<label><input type="radio" name="gender" value="female"/> Female</label>
 			</div>
 			<div><span>Ethnicity:</span>
-				<input type="radio" name="ethnicity" value="caucasian"/> Caucasian
-				<input type="radio" name="ethnicity" value="african-american"/> African American
-				<input type="radio" name="ethnicity" value="asian-pacific-islander"/> Asian/Pacific Islander
-				<input type="radio" name="ethnicity" value="indian-alaskan-native"/> Indian/Alaskan native
-				<input type="radio" name="ethnicity" value="hispanic"/> Hispanic
-				<input type="radio" name="ethnicity" value="other"/> Other
+				<label><input type="radio" name="ethnicity" value="caucasian"/> Caucasian</label>
+				<label><input type="radio" name="ethnicity" value="african-american"/> African American</label>
+				<label><input type="radio" name="ethnicity" value="asian-pacific-islander"/> Asian/Pacific Islander</label><br/>
+				<span class="padding">&nbsp;</span>
+				<label><input type="radio" name="ethnicity" value="indian-alaskan-native"/> Indian/Alaskan native</label>
+				<label><input type="radio" name="ethnicity" value="hispanic"/> Hispanic</label>
+				<label><input type="radio" name="ethnicity" value="other"/> Other</label>
 			</div>
 			<div><span>Age:</span>
-				<input type="radio" name="age" value="caucasian"/> Younger than 12
-				<input type="radio" name="age" value="african-american"/> 12-17
-				<input type="radio" name="age" value="asian-pacific-islander"/> 18-24
-				<input type="radio" name="age" value="indian-alaskan-native"/> 25-34
-				<input type="radio" name="age" value="hispanic"/> 35-50
-				<input type="radio" name="age" value="other"/> Older than 50
+				<label><input type="radio" name="age" value="less-than-12"/> Younger than 12</label>
+				<label><input type="radio" name="age" value="12-17"/> 12-17</label>
+				<label><input type="radio" name="age" value="18-24"/> 18-24</label>
+				<label><input type="radio" name="age" value="25-34"/> 25-34</label>
+				<label><input type="radio" name="age" value="35-50"/> 35-50</label>
+				<label><input type="radio" name="age" value="older-than-50"/> Older than 50</label>
 			</div>
 		</div>
-
+		<br/>
 		<div id="final" class="row">
-			<h3>5. Now you are done. Thank you!</h3>
+			<h3>5. You are done. Thank you!</h3>
 			<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
 	        <input type="hidden" name="assignmentId" id="assignmentId" value="">
+			<input type="hidden" name="pausedTimes" id="pausedTimes" value="">
+			<input type="hidden" name="pausedTimestamps" id="pausedTimestamps" value="">
+			<input type="hidden" name="resumedTimestamps" id="resumedTimestamps" value="">
 			<div class="disclaimer">
 				The goal of this study is to understand how people perceive the personality of the others. <br/>
 				This study is a part of research conducted at Massachusetts Institute of Technology. <br/>
-				Your participation is voluntary and you have the right to stop at any time. Please proceed if you agree.
+				Your participation is voluntary and you have the right to stop at any time. <br/>
 			</div>
 
 			<button id='taskSub' type="submit" class="btn btn-lg btn-primary disabled" style="float:right" disabled="disabled">Submit</button>
 			<hr>
-			<div>Question? Shoot an email to yalesong at mit dot edu.</div>
+			<div>Question? Send an email to yalesong at mit dot edu.</div>
 		</div>
 	</form>
 	</div> 
@@ -296,25 +384,39 @@ while($entry = $result->fetch_assoc()){
 
 		function onYouTubePlayerReady(playerId) {
 		      player = document.getElementById("ytplayer");
-		      console.log("onPlayerReady", start, start+20);
+		      console.log("onPlayerReady");
 		      player.addEventListener("onStateChange", "onPlayerStateChange");
-		      player.loadVideoById({'videoId': video["video_id"]});
+		      player.cueVideoById({'videoId': video["video_id"]});
 		      // player.loadVideoById({'videoId': video["video_id"], 'startSeconds': start, 'endSeconds': start+20});
 		      setInterval(updateytplayerInfo, 600);
 		      updateytplayerInfo();
 		}		      
 
+		var num_pauses = 20;
+		var duration = 0;
+		var position = 0;
+		var paused_times = [];
+		var paused_timestamps = [];
+		var resumed_timestamps = [];
 		function updateytplayerInfo(){
-			// if (player) {
-			//     var position = player.getCurrentTime();
-			// 	var offset = parseInt(position - start);
-			// 	if (offset < 10)
-			// 		$("#timerDisplay").text("0:0" + offset);
-			// 	else
-			// 		$("#timerDisplay").text("0:" + offset);		
-			// 	$("#timeline").slider( "option", "max", 20);
-   //          	$("#timeline").slider('value', offset);		    
-			// }							
+			if (player) {
+				if (duration == 0)
+					duration = player.getDuration();
+			    position = parseInt(player.getCurrentTime());
+			    console.log(position, parseInt(duration/num_pauses));
+			    if (duration != 0 && position != 0 && (position % parseInt(duration/num_pauses) == 0)){
+			    	// if the player has been paused already in this position, do not pause again.
+			    	if ($.inArray(position, paused_times) == -1){
+			    		player.pauseVideo();
+			    		paused_times.push(position);
+			    		paused_timestamps.push(new Date().getTime());
+			    		console.log("paused at", paused_times);
+			    		$("#pausedTimes").val(paused_times);
+			    		$("#pausedTimestamps").val(paused_timestamps);
+			    		$("#errorMsg").show().html("Video is paused. Please click on the player to resume.");
+			    	}
+			    }    
+			}							
 		}
 		/*
 	      // 4. The API will call this function when the video player is ready.
@@ -329,10 +431,10 @@ while($entry = $result->fetch_assoc()){
 	    // 5. The API calls this function when the player's state changes.
 	    //    The function indicates that when playing a video (state=1),
 	    //    the player should play for six seconds and then stop.
-	    var done = false;
 	    function onPlayerStateChange(state) {
 	      	console.log("CHANGE", state);
 	      	if (state == -1){
+	      		/*
 			    setTimeout( function() { 
 			  		if (player.getPlayerState() == -1){
 						$("#errorMsg").show()
@@ -346,14 +448,29 @@ while($entry = $result->fetch_assoc()){
 						}, 20000);
 					}
 				}, 5000);		      		
-	      	} else if (state == 1 && !done) {
-			    setTimeout( function() { 
-					 videoPlayed = true;
-					 if ($("#instruction").val() != "") {
-					 	$("#taskSub").removeClass('disabled').removeAttr('disabled');
-					 }
-				}, 20000);
-	            done = true;
+				*/
+	      	} else if (state == 1) {
+	      		$("#errorMsg").hide();
+	      		console.log("playing", player.getCurrentTime());
+				resumed_timestamps.push(new Date().getTime());
+			    $("#resumedTimestamps").val(resumed_timestamps);
+
+			 //    setTimeout( function() { 
+				// 	 videoPlayed = true;
+				// 	 if ($("#instruction").val() != "") {
+				// 	 	$("#taskSub").removeClass('disabled').removeAttr('disabled');
+				// 	 }
+				// }, 20000);
+	   //          done = true;
+			} else if (state == 2) {
+				console.log("paused", player.getCurrentTime());
+	        } else if (state == 0){
+	        	// ended
+	        	$("#errorMsg").show().html("Video finished playing. Please answer the questions below.");
+	        	console.log("video ended, show the questionnaire now.");
+	        	$("#questions").show();
+	        	$("#demographics").show();
+	        	$("#final").show();
 	        }
 	    }
 
@@ -365,48 +482,40 @@ while($entry = $result->fetch_assoc()){
 	    	$(".interviewee-photo").html("<img src='" + pic_url + video["video_id"] + ".jpg'/>");
 	    	$(".interviewee-name").text(video["name"]);
 	    	$(".interviewee-title").text(video["title"]);
+	    	$(".interviewer-photo").html("<img src='img/time_logo2.jpg'/>");
 	    }
-
-	   //  function addQuestions(){
-	   //  	var $question;
-	   //  	var questionArray = [
-	   //  		"1.	... is reserved",
-				// "2.	... is generally trusting", 
-				// "3.	... tends to be lazy", 
-				// "4.	... is relaxed, handles stress well", 
-				// "5.	... has few artistic interests", 
-				// "6.	... is outgoing, sociable", 
-				// "7.	... tends to find fault with others", 
-				// "8.	... does a thorough job", 
-				// "9.	... gets nervous easily", 
-				// "10.	... has an active imagination"
-	   //  	];
-	   //  	var i, j;
-	   //  	for (i=0; i<questionArray.length; i++){
-	   //  		$question = $("<div/>").addClass("question").text(questionArray[i]);
-	   //  		for (j=0; j<5; j++){
-	   //  			$("<input type='radio'>").attr("name", "question-" + (i+1)).text("Disagree strongly").appendTo($question);
-	   //  			$("<input type='radio'>").attr("name", "question-" + (i+1)).text("Disagree a little").appendTo($question);
-	   //  			$("<input type='radio'>").attr("name", "question-" + (i+1)).text("Neither agree nor disagree").appendTo($question);
-	   //  			$("<input type='radio'>").attr("name", "question-" + (i+1)).text("Agree a little").appendTo($question);
-	   //  			$("<input type='radio'>").attr("name", "question-" + (i+1)).text("Agree strongly").appendTo($question);
-	   //  		}
-	   //  		$("#questions").append($question);	
-	   //  	}
-	    	
-	   //  }
 
 	    $(document).ready(function(){
 	    	addPriorInfo();
-	    	// addQuestions();
 
 	    	$("input[name='doyouknow']").change(function(){
 	    		var selected = $("input[name='doyouknow']:checked").val();
 	    		if (selected == "yes"){
 	    			$(".q-confidence").show();
 	    			$(".a-confidence").show();
+	    		} else if (selected == "no"){
+	    			$("#video-player").show();
 	    		}
 	    	});
+	    	$("input[name='confidence']").change(function(){
+	    		$("#video-player").show();
+	    	});
+
+	    	$("#questions :radio").change(function() {
+			    var names = {};
+			    $('#questions :radio').each(function() {
+			        names[$(this).attr('name')] = true;
+			    });
+			    var count = 0;
+			    $.each(names, function() { 
+			        count++;
+			    });
+			    if ($('#questions :radio:checked').length !== count) {
+			        console.log($('#questions :radio:checked').length, "out of", count, "answered");
+			    } else {
+			    	$("#taskSub").removeClass("disabled").removeAttr("disabled");
+			    }
+			});
 	    });
 	</script>        
 </body>
