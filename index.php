@@ -406,7 +406,7 @@ The total duration of pauses will be a part of your feedback.
 	    var player;
 		var vidParams = { allowScriptAccess: "always" };
 		var atts = { id: "ytplayer" };
-		swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&playerapiid=ytplayer&version=3&controls=1&rel=0",
+		swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&playerapiid=ytplayer&version=3&controls=0&rel=0",
                    "ytplayer", "640", "360", "8", null, null, vidParams, atts);
 
 		function onYouTubePlayerReady(playerId) {
