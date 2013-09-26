@@ -13,12 +13,33 @@ if ($mysqli->connect_errno) {
 }
 
 $id = $_GET["id"];
+$workerId = $_GET["workerId"];
+$assignmentId = $_GET["assignmentId"];
+
 $video = array();
 $result = $mysqli->query("SELECT * FROM videos WHERE id = '$id'");
 while($entry = $result->fetch_assoc()){
 	$video = $entry;
 }
 
+$didTutorial = FALSE;
+$result = $mysqli->query("SELECT * FROM worker_tutorial WHERE workerid = '$workerId'");
+// echo $result->num_rows . " rows returned";
+if ($result->num_rows == 1)
+	$didTutorial = TRUE;
+
+$questionArray = array(
+	"1.	... is reserved",
+	"2.	... is generally trusting", 
+	"3.	... tends to be lazy", 
+	"4.	... is relaxed, handles stress well", 
+	"5.	... has few artistic interests", 
+	"6.	... is outgoing, sociable", 
+	"7.	... tends to find fault with others", 
+	"8.	... does a thorough job", 
+	"9.	... gets nervous easily", 
+	"10.	... has an active imagination"
+);
 ?>
 
 <!DOCTYPE html>
@@ -40,6 +61,12 @@ while($entry = $result->fetch_assoc()){
             padding-bottom: 40px;
             /*width: 800px;*/
         }
+        #preview {
+        	text-align: center;
+        }
+        #preview img {
+        	width: 640px;
+        }
 		#title h2{
 			text-align: center;
 		}
@@ -48,9 +75,34 @@ while($entry = $result->fetch_assoc()){
         	padding: 10px;
         	margin: 20px;
         }
-		#inst, #video-player, #questions, #demographics, #final{
+		#preview, #tutorial, #interviewee-prior-header, #interviewee-prior, #inst, #video-player, #questions, #demographics, #final{
 			display: none;
 		}	
+		#tutorial input[type=radio]{
+			margin-left: 40px;
+		}		
+		#tutorial .header-agree{
+			margin-left: 70px;
+		}
+		.tutorial-success {
+			display: none;
+		}
+		.tutorial-question{
+			font-size: 18px;
+			font-weight: bold;			
+		}
+		.tutorial-header{
+			font-size: 18px;
+			font-weight: bold;
+			margin-top: 30px;
+			margin-bottom: 5px;
+		}	
+		#tutorial-player{
+			text-align: center;
+		}
+		.warning {
+			color: red;
+		}
 		.interviewee-name {
 			font-weight: bold;
 			font-size: 16px;
@@ -83,7 +135,7 @@ while($entry = $result->fetch_assoc()){
 		}
 		#errorMsg {
 			display: none;
-			background: yellow;
+			/*background: yellow;*/
 			padding: 10px;
 			font-weight: bold;
 		}		
@@ -104,7 +156,7 @@ while($entry = $result->fetch_assoc()){
         	/*top:50%; */
         	bottom: 0;
         }
-        .question-header .desc{
+        .question-header .desc, .tutorial-header .desc{
         	font-weight: bold;
         	font-size: 16px;
         }
@@ -152,8 +204,6 @@ while($entry = $result->fetch_assoc()){
 
 <body>
 	<div class="container">
-	<form id="submitForm" action="https://www.mturk.com/mturk/externalSubmit" method="POST">
-
 		<div id="title" class="row">
 			<h2 class="col-sm-12 col-md-12 col-lg-12">
 				How do you perceive the personality of the others?
@@ -163,11 +213,75 @@ while($entry = $result->fetch_assoc()){
 				We want to understand how people perceive the personality of the others. <br/>
 				This questionnaire will gather data to help answer that question.
 			</div>
+		</div>		
+
+		<div id="preview" class="row">
+			<br/>
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<img src="img/preview-screenshot.png">
+			</div>
 		</div>
-		<div class="row">
+
+	<form id="submitForm" action="https://www.mturk.com/mturk/externalSubmit" method="POST">
+
+		<br/>
+		<div id="tutorial" class="row">
+			<h3 class="instruction">
+				Tutorial Session
+			</h3>
+			<ul>
+				<li>In this tutorial you will watch a video clip and answer 10 questions regarding personality. </li>
+				<br/>
+				<li>After this tutorial, we want you be comfortable answering the 10 questions on different video.</li>
+				<br/>
+				<li>You will have to do this tutorial only once. If you decide to do other HITs from us, you won’t see this tutorial again.</li>
+				<br/>
+				<li>Please avoid preconception. Please answer each question based just on what you see in the video. Avoid answering each question based on your prior knowledge of the person.</li>
+				<br/>
+			</ul>
+			<div id="tutorial-player">
+				<iframe id="tutplayer" type="text/html" width="640" height="390"
+				  src="http://www.youtube.com/embed/q7IEvfd1oXo?start=5&end=112&version=3&autoplay=0&controls=1&rel=0&showinfo=0" frameborder="0"></iframe>
+			</div>
+			<br/>
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<div class="tutorial-question">Answer the 10 questions. </div>
+				<div class="warning">Remember! Please do not use your preconception of the person to answer these questions.</div>				
+			</div>
+
+<?php
+	    echo "<div class='col-sm-6 col-md-6 col-lg-6'>";
+	    echo "<div class='tutorial-header'><span>The person in the video </span></div>";
+	    for($i=0; $i<10; $i++){
+	    	echo "<div class='question'><span class='question-text'>" . $questionArray[$i] . "</span>";
+	    	echo "</div>";
+	    }
+	    echo "</div>";
+	    echo "<div class='col-sm-6 col-md-6 col-lg-6'>";
+	    echo "<div class='tutorial-header'><span class='desc'>Disagree strongly</span>   <span class='desc header-agree'>Agree strongly</span></div>";
+	    for($i=0; $i<10; $i++){
+	    	echo "<div>";
+	    	echo "<label><input type='radio' name='question-tutorial-" . ($i+1) . "' value='1'/></label>";
+	    	echo "<label><input type='radio' name='question-tutorial-" . ($i+1) . "' value='2'/></label>";
+	    	echo "<label><input type='radio' name='question-tutorial-" . ($i+1) . "' value='3'/></label>";
+	    	echo "<label><input type='radio' name='question-tutorial-" . ($i+1) . "' value='4'/></label>";
+	    	echo "<label><input type='radio' name='question-tutorial-" . ($i+1) . "' value='5'/></label>";
+	    	echo "</div>";
+	    }
+	    echo "</div>";
+	    
+?>			
+		<div>
+			<button class="btn btn-primary btn-lg" id="tutorial-button" style="float:right">Submit</button>
+		</div>
+		</div>		
+		<br/>
+
+		<div class="alert alert-success tutorial-success">You successfully completed the tutorial!</div>
+		<div id="interviewee-prior-header" class="row">
 			<h3 class="instruction">1. Before we start...</h3>
 		</div>
-		<div id="interviewee-prior" class="row">
+		<div  id="interviewee-prior" class="row">
 			<div class="col-sm-3 col-md-3 col-lg-3">
 				<div class="interviewee-photo"></div>
 				<div class="interviewee-name"></div>
@@ -197,10 +311,9 @@ while($entry = $result->fetch_assoc()){
 			</div>
 		</div>
 		<br/>
+
 		<div id="inst" class="row">
-			<h3 class="instruction">
-				2. Read the instruction.
-			</h3>
+			<h3 class="instruction">2. Read the instruction.</h3>
 			<ul>
 			<li>
 			<strong>Think ahead.</strong> We will ask you 10 questions (below) about <i>both</i> the interviewee and the interviewer. <br/>
@@ -240,17 +353,14 @@ The total duration of pauses will be a part of your feedback.
 			</div>			
 		</div>
 		<br/>
+
 		<div id="video-player" class="row">
-			<h3 class="instruction">
-				3. Now, watch the video. 
-			</h3>
+			<h3 class="instruction">3. Now, watch the video.</h3>
 			<div id="ytplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
-			<!-- <iframe id="ytplayer" type="text/html" width="640" height="390"
-		  src="https://www.youtube.com/v/<?php echo $video['slug']; ?>?enablejsapi=1&version=3"
-		  frameborder="0"></iframe> -->
-		    <div id="errorMsg"></div>
+		    <div id="errorMsg" class="alert alert-danger"></div>
 		</div>
 		<br/>
+
 		<div id="questions" class="row">
 			<h3 class="instruction">4. Answer the 10 questions.</h3>
 			<div class="instruction col-sm-12 col-md-12 col-lg-12">
@@ -258,18 +368,7 @@ The total duration of pauses will be a part of your feedback.
 			</div>
 			<br/>
 <?php
-    	$questionArray = array(
-    		"1.	... is reserved",
-			"2.	... is generally trusting", 
-			"3.	... tends to be lazy", 
-			"4.	... is relaxed, handles stress well", 
-			"5.	... has few artistic interests", 
-			"6.	... is outgoing, sociable", 
-			"7.	... tends to find fault with others", 
-			"8.	... does a thorough job", 
-			"9.	... gets nervous easily", 
-			"10.	... has an active imagination"
-    	);
+
 	    echo "<div class='col-sm-6 col-md-6 col-lg-6'>";
 	    echo "<div class='question-header'><div><span class='interviewee-photo'></span> <br/><span class='desc'>Interviewee</span></div></div>";
 	    for($i=0; $i<10; $i++){
@@ -369,44 +468,42 @@ The total duration of pauses will be a part of your feedback.
 			var tmparr = prmarr[i].split("=");
 			params[tmparr[0]] = tmparr[1];
 		}
+		
 		var id = params["id"];
 		var debug = false;
-		console.log(id, isInt(params["pauses"]), params["debug"] == 1);
 		if (typeof params["debug"] !== "undefined" && params["debug"] == 1)
 			debug = true;
-		console.log("debug", debug);
 		var num_pauses = 5;
 		if (typeof params["pauses"] !== "undefined" && isInt(parseInt(params["pauses"])))
 			num_pauses = parseInt(params["pauses"]);
-		console.log("num pauses", num_pauses);
+
 		var video = <?php echo json_encode($video); ?>;
 		var pic_url = "http://groups.csail.mit.edu/mug/time10q/mturk/pics/";
-		console.log(video);
 
-		// 2. This code loads the IFrame Player API code asynchronously.
-		// var tag = document.createElement('script');
-		// tag.src = "https://www.youtube.com/iframe_api";
-		// var firstScriptTag = document.getElementsByTagName('script')[0];
-		// firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+		var isPreview = false;
+		if (typeof params["assignmentId"] === "undefined")
+			isPreview = true;
+		if (typeof params["preview"] !== "undefined" && params["preview"] == 0)
+			isPreview = false;
 
-		// 3. This function creates an <iframe> (and YouTube player)
-		//    after the API code downloads.
-		// var player;
-		// function onYouTubeIframeAPIReady() {
-		//   player = new YT.Player('ytplayer', {
-		//     height: '390',
-		//     width: '640',
-		//     videoId: "<?php echo $video['slug']; ?>",
-		//     events: {
-		//       'onReady': onPlayerReady,
-		//       'onStateChange': onPlayerStateChange
-		//     }
-		//   });
-		// }
+		var workerId = "";
+		if (typeof params["workerId"] !== "undefined")
+			workerId = params["workerId"];
+
+<?php
+		if ($didTutorial)
+			echo "var isTutorialCompleted = true;";
+		else
+			echo "var isTutorialCompleted = false;";
+?>
 	    var player;
 		var vidParams = { allowScriptAccess: "always" };
 		var atts = { id: "ytplayer" };
-		swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&playerapiid=ytplayer&version=3&controls=0&rel=0",
+		if (debug)
+			swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&playerapiid=ytplayer&version=3&controls=1&rel=0",
+                   "ytplayer", "640", "360", "8", null, null, vidParams, atts);
+		else
+			swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&playerapiid=ytplayer&version=3&controls=0&rel=0",
                    "ytplayer", "640", "360", "8", null, null, vidParams, atts);
 
 		function onYouTubePlayerReady(playerId) {
@@ -446,16 +543,7 @@ The total duration of pauses will be a part of your feedback.
 			    }    
 			}							
 		}
-		/*
-	      // 4. The API will call this function when the video player is ready.
-	      function onPlayerReady(event) {
-		    console.log("onPlayerReady", start, start+20);
-		    //event.target.playVideo();
-			player.cueVideoById({'videoId': '<?php echo $video['slug']; ?>', 'startSeconds': start, 'endSeconds': start+20});
-			//player.cueVideoById({'videoId': 'bHQqvYy5KYo', 'startSeconds': 50, 'endSeconds': 60});
 
-	      }
-	    */
 	    // 5. The API calls this function when the player's state changes.
 	    //    The function indicates that when playing a video (state=1),
 	    //    the player should play for six seconds and then stop.
@@ -494,8 +582,8 @@ The total duration of pauses will be a part of your feedback.
 				console.log("paused", player.getCurrentTime());
 	        } else if (state == 0){
 	        	// ended
-	        	$("#errorMsg").show().html("Video finished playing. Please answer the questions below.");
-	        	console.log("video ended, show the questionnaire now.");
+	        	$("#errorMsg").show().removeClass("alert-danger").addClass("alert-info").html("Video finished playing. Please answer the questions below.");
+	        	// console.log("video ended, show the questionnaire now.");
 	        	$("#questions").show();
 	        	// $("#demographics").show();
 	        	// $("#final").show();
@@ -513,7 +601,13 @@ The total duration of pauses will be a part of your feedback.
 	    	$(".interviewer-photo").html("<img src='img/time_logo2.jpg'/>");
 	    }
 
+
 	    $(document).ready(function(){
+	    	console.log("[debug]", debug);
+	    	console.log("[num pauses]", num_pauses);
+	    	console.log("[is preview]", isPreview);
+	    	console.log("[is tutorial completed]", isTutorialCompleted);
+
 	    	addPriorInfo();
 
 	    	$("input[name='doyouknow']").change(function(){
@@ -549,14 +643,62 @@ The total duration of pauses will be a part of your feedback.
 			    }
 			});
 
-			if (debug){
-				$("#questions").show();
-				$("#inst").show();
-				$("#video-player").show(); 
-				$("#questions").show(); 
-				$("#demographics").show();
-				$("#final").show();
-			}
+	    	$("#tutorial-button").click(function(){
+		    	// $("#tutorial :radio").change(function() {
+				    var names = {};
+				    $('#tutorial :radio').each(function() {
+				        names[$(this).attr('name')] = true;
+				    });
+				    var count = 0;
+				    $.each(names, function() { 
+				        count++;
+				    });
+				    if ($('#tutorial :radio:checked').length !== count) {
+				        console.log($('#tutorial :radio:checked').length, "out of", count, "answered");
+				        alert("Please answer all the questions!");
+				    } else {
+			    		if (workerId != ""){
+				    		$.ajax({
+							  	url: "update-tutorial-info.php?workerid=" + workerId,
+							}).done(function(data) {
+							  	console.log("update-tutorial-info returned", data);
+							});	    			
+			    		}
+						$("#tutorial").hide();
+						$(".tutorial-success").show();
+			    		$("#interviewee-prior").show();
+			    		$("#interviewee-prior-header").show();
+				    }
+				// });
+
+
+	    		// prevent submitting the mturk form
+	    		return false;
+	    	});
+
+	    	if (isPreview){
+	    		$("#preview").show();
+	    	} else {
+		    	if (isTutorialCompleted){
+		    		$("#interviewee-prior").show();
+		    		$("#interviewee-prior-header").show();
+		    	} else {
+		    		$("#tutorial").show();
+		    	}
+
+				if (debug){
+					$("#tutorial").show();
+		    		$("#interviewee-prior").show();
+		    		$("#interviewee-prior-header").show();				
+					$("#questions").show();
+					$("#inst").show();
+					$("#video-player").show(); 
+					$("#questions").show(); 
+					$("#demographics").show();
+					$("#final").show();
+				}	    		
+	    	}
+
 	    });
 	</script>        
 </body>
