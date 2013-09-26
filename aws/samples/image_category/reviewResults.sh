@@ -14,10 +14,9 @@
 # limitations under the License.
  
 
-#get current directory name
-DIR_NAME=${PWD##*/}
-cd ..
-cd aws/bin
-./loadHITs.sh $1 $2 $3 $4 $5 $6 $7 $8 $9 -label ../../mturk/external_hit -input ../../mturk/external_hit.input -question ../../mturk/external_hit.question -properties ../../mturk/external_hit.properties -sandbox
+#!/usr/bin/env bash
 cd ../..
-cd mturk/
+cd bin
+./reviewResults.sh $1 $2 $3 $4 $5 $6 $7 $8 $9 -resultsfile ../samples/image_category/image_category.results
+cd ..
+cd samples/image_category

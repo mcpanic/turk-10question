@@ -12,12 +12,22 @@
 # OR CONDITIONS OF ANY KIND, either express or implied. See the
 # License for the specific language governing permissions and
 # limitations under the License.
- 
-
-#get current directory name
-DIR_NAME=${PWD##*/}
 cd ..
-cd aws/bin
-./loadHITs.sh $1 $2 $3 $4 $5 $6 $7 $8 $9 -label ../../mturk/external_hit -input ../../mturk/external_hit.input -question ../../mturk/external_hit.question -properties ../../mturk/external_hit.properties -sandbox
-cd ../..
-cd mturk/
+cd bin
+./makeTemplate.sh $@ -os Unix -type Hit -templateRootDir ../samples -targetRootDir ../hits -scriptTemplateDir ../etc/templates/hits
+cd ..
+cd hits
+
+# Set the scripts executable
+seen_target=0
+for param in $@
+do
+  if [ $param = "-target" ]; then
+    seen_target=1
+    continue
+  fi
+  if [ $seen_target -eq 1 ]; then
+    chmod a+x $param/*.sh
+    seen_target=0
+  fi
+done

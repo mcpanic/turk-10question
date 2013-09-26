@@ -13,11 +13,11 @@
 # License for the specific language governing permissions and
 # limitations under the License.
  
+ 
 
-#get current directory name
-DIR_NAME=${PWD##*/}
-cd ..
-cd aws/bin
-./loadHITs.sh $1 $2 $3 $4 $5 $6 $7 $8 $9 -label ../../mturk/external_hit -input ../../mturk/external_hit.input -question ../../mturk/external_hit.question -properties ../../mturk/external_hit.properties -sandbox
 cd ../..
-cd mturk/
+cd bin
+./assignQualification.sh $1 $2 $3 $4 $5 $6 $7 $8 $9 -sandbox -input ../samples/assign_qualification/qualification.properties.success
+
+cd ..
+cd samples/assign_qualification
