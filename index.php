@@ -88,8 +88,9 @@ $questionArray = array(
 			display: none;
 		}
 		.tutorial-question{
-			font-size: 18px;
+			font-size: 16px;
 			font-weight: bold;			
+			height: 25px;
 		}
 		.tutorial-header{
 			font-size: 18px;
@@ -221,7 +222,7 @@ $questionArray = array(
 		<div id="preview" class="row">
 			<br/>
 			<div class="col-sm-12 col-md-12 col-lg-12">
-				<img src="img/preview-screenshot.png">
+				<img src="img/preview-screenshot-clooney.png">
 			</div>
 		</div>
 
@@ -235,7 +236,7 @@ $questionArray = array(
 			<ul>
 				<li>In this tutorial you will watch a video clip and answer 10 questions regarding personality. </li>
 				<br/>
-				<li>After this tutorial, we want you be comfortable answering the 10 questions on different video.</li>
+				<li>After this tutorial, we want you to be comfortable answering the 10 questions on different video.</li>
 				<br/>
 				<li>You will have to do this tutorial only once. If you decide to do other HITs from us, you won’t see this tutorial again.</li>
 				<br/>
@@ -244,7 +245,7 @@ $questionArray = array(
 			</ul>
 			<div id="tutorial-player">
 				<iframe id="tutplayer" type="text/html" width="640" height="390"
-				  src="http://www.youtube.com/embed/q7IEvfd1oXo?start=5&end=112&version=3&autoplay=0&controls=1&rel=0&showinfo=0" frameborder="0"></iframe>
+				  src="http://www.youtube.com/embed/Hty9p4AHPZA?start=58&end=91&version=3&autoplay=0&controls=0&rel=0&showinfo=0&origin=http://juhokim.com" frameborder="0"></iframe>
 			</div>
 			<br/>
 			<div class="col-sm-12 col-md-12 col-lg-12">
@@ -256,14 +257,14 @@ $questionArray = array(
 	    echo "<div class='col-sm-6 col-md-6 col-lg-6'>";
 	    echo "<div class='tutorial-header'><span>The person in the video </span></div>";
 	    for($i=0; $i<10; $i++){
-	    	echo "<div class='question'><span class='question-text'>" . $questionArray[$i] . "</span>";
+	    	echo "<div class='tutorial-question'><span class='tutorial-question-text'>" . $questionArray[$i] . "</span>";
 	    	echo "</div>";
 	    }
 	    echo "</div>";
 	    echo "<div class='col-sm-6 col-md-6 col-lg-6'>";
 	    echo "<div class='tutorial-header'><span class='desc'>Disagree strongly</span>   <span class='desc header-agree'>Agree strongly</span></div>";
 	    for($i=0; $i<10; $i++){
-	    	echo "<div>";
+	    	echo "<div class='tutorial-question'>";
 	    	echo "<label><input type='radio' name='question-tutorial-" . ($i+1) . "' value='1'/></label>";
 	    	echo "<label><input type='radio' name='question-tutorial-" . ($i+1) . "' value='2'/></label>";
 	    	echo "<label><input type='radio' name='question-tutorial-" . ($i+1) . "' value='3'/></label>";
@@ -358,10 +359,10 @@ The total duration of pauses will be a part of your feedback.
 
 		<div id="video-player" class="row">
 			<h3 class="instruction">3. Now, watch the video.</h3>
-			<!-- <div id="ytplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div> -->
-			<iframe id="ytplayer" type="text/html" width="640" height="390"
-				src="http://www.youtube.com/embed/"q7IEvfd1oXo"?start=5&end=112&version=3&autoplay=0&controls=1&rel=0&showinfo=0" frameborder="0"></iframe>
-
+			<div id="ytplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
+<!-- 			<iframe id="ytplayer" type="text/html" width="640" height="390"
+				src="http://www.youtube.com/embed/q7IEvfd1oXo?version=3&autoplay=0&controls=0&rel=0&showinfo=0&origin=http://juhokim.com" frameborder="0"></iframe>
+ -->
 		    <div id="errorMsg" class="alert alert-danger"></div>
 		</div>
 		<br/>
@@ -426,6 +427,10 @@ The total duration of pauses will be a part of your feedback.
 				<label><input type="radio" name="age" value="25-34"/> 25-34</label>
 				<label><input type="radio" name="age" value="35-50"/> 35-50</label>
 				<label><input type="radio" name="age" value="older-than-50"/> Older than 50</label>
+			</div>
+			<div>
+				<div>Please leave any comments about the task:</div>
+				<textarea id="comment" name="comment" rows="3" cols="50"></textarea>
 			</div>
 		</div>
 		<br/>
@@ -511,10 +516,10 @@ The total duration of pauses will be a part of your feedback.
 		var vidParams = { allowScriptAccess: "always", allowFullScreen: "false" };
 		var atts = { id: "ytplayer" };
 		if (debug)
-			swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]) + "&playerapiid=ytplayer&version=3&controls=1&rel=0",
+			swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]) + "&playerapiid=ytplayer&version=3&controls=1&rel=0&origin=http://juhokim.com",
                    "ytplayer", "640", "360", "8", null, null, vidParams, atts);
 		else
-			swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]) + "&playerapiid=ytplayer&version=3&controls=0&rel=0",
+			swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]) + "&playerapiid=ytplayer&version=3&controls=0&rel=0&origin=http://juhokim.com",
                    "ytplayer", "640", "360", "8", null, null, vidParams, atts);
 
 
