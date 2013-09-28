@@ -497,7 +497,7 @@ The total duration of pauses will be a part of your feedback.
 		var pic_url = "http://groups.csail.mit.edu/mug/time10q/mturk/pics/";
 
 		var isPreview = false;
-		if (typeof params["assignmentId"] === "undefined")
+		if (typeof params["assignmentId"] === "undefined" || params["assignmentId"] == "ASSIGNMENT_ID_NOT_AVAILABLE")
 			isPreview = true;
 		if (typeof params["preview"] !== "undefined" && params["preview"] == 0)
 			isPreview = false;
