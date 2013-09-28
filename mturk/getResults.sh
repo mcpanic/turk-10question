@@ -15,8 +15,8 @@
 
 #get current directory name
 DIR_NAME=${PWD##*/}
-cd ../..
+cd ..
 cd aws/bin
-./getResults.sh $1 $2 $3 $4 $5 $6 $7 $8 $9 -successfile ../../real/$DIR_NAME/external_hit.success -outputfile ../../real/$DIR_NAME/external_hit.results
+./getResults.sh $1 $2 $3 $4 $5 $6 $7 $8 $9 -successfile ../../mturk/external_hit.success -outputfile ../../mturk/external_hit.results
 cd ../..
-cd real/$DIR_NAME
+cd mturk

@@ -4693,3 +4693,67 @@ You may see your HIT(s) with HITTypeId '2YUQ6SVQ8H88B2XHAJFBYCI1RLZ5OO' here:
 [2013-09-26 15:33:06] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
 [2013-09-26 15:33:06] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
 [2013-09-26 15:33:06] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-09-28 12:06:22] INFO  (AbstractCmd.java: 138) - Sandbox override
+[2013-09-28 12:06:24] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-09-28 12:06:24] INFO  (LoadHITs.java: 194) -  Input: ../../mturk/external_hit.input
+[2013-09-28 12:06:24] INFO  (LoadHITs.java: 195) -  Properties: ../../mturk/external_hit.properties
+[2013-09-28 12:06:24] INFO  (LoadHITs.java: 196) -  Question File: ../../mturk/external_hit.question
+[2013-09-28 12:06:24] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-09-28 12:06:27] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-09-28 12:06:27] INFO  (LoadHITs.java: 231) -   Start time: Sat Sep 28 12:06:27 EDT 2013
+[2013-09-28 12:06:27] ERROR (LoadHITs.java: 133) - Error loading HITs: Error executing operation: Error #1 for RequestId: 1ff146dc-9287-4cfd-a511-8eea9183a858 - AWS.MechanicalTurk.MustRegister: Please log in to https://requestersandbox.mturk.com/ and complete registration. (1380384386731 s)
+com.amazonaws.mturk.service.exception.InternalServiceException: Error executing operation: Error #1 for RequestId: 1ff146dc-9287-4cfd-a511-8eea9183a858 - AWS.MechanicalTurk.MustRegister: Please log in to https://requestersandbox.mturk.com/ and complete registration. (1380384386731 s)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.processErrors(ErrorProcessingFilter.java:158)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.execute(ErrorProcessingFilter.java:48)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.RetryFilter.execute(RetryFilter.java:115)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.sendMessage(CLTExceptionFilter.java:77)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.execute(CLTExceptionFilter.java:62)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequests(FilteredAWSService.java:172)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:152)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:116)
+	at com.amazonaws.mturk.service.axis.RequesterServiceRaw.registerHITType(RequesterServiceRaw.java:440)
+	at com.amazonaws.mturk.service.axis.RequesterService.createHITs(RequesterService.java:1512)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:236)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+[2013-09-28 12:34:41] INFO  (AbstractCmd.java: 138) - Sandbox override
+[2013-09-28 12:34:44] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-09-28 12:34:44] INFO  (LoadHITs.java: 194) -  Input: ../../mturk/external_hit.input
+[2013-09-28 12:34:44] INFO  (LoadHITs.java: 195) -  Properties: ../../mturk/external_hit.properties
+[2013-09-28 12:34:44] INFO  (LoadHITs.java: 196) -  Question File: ../../mturk/external_hit.question
+[2013-09-28 12:34:44] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-09-28 12:34:46] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-09-28 12:34:46] INFO  (LoadHITs.java: 231) -   Start time: Sat Sep 28 12:34:46 EDT 2013
+[2013-09-28 12:34:46] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-09-28 12:34:47] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2G4AZHHRRLFQFY1S5781NHO9PL5NEC
+[2013-09-28 12:34:47] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2EDO2L92HECWPGB8843CI0CP58ZGH3' here: 
+[2013-09-28 12:34:47] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2EDO2L92HECWPGB8843CI0CP58ZGH3
+
+[2013-09-28 12:34:47] INFO  (LoadHITs.java: 239) -   End time: Sat Sep 28 12:34:47 EDT 2013
+[2013-09-28 12:34:47] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-09-28 12:34:47] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-09-28 12:34:47] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-09-28 12:39:03] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-09-28 12:39:03] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-09-28 12:39:18] ERROR (GetResults.java: 166) - Error retrieving HIT results for HIT 1/1 (2G4AZHHRRLFQFY1S5781NHO9PL5NEC): Error #1 for RequestId: c7ac6494-35c8-408e-9d8f-c651445ad157 - AWS.MechanicalTurk.HITDoesNotExist: Hit 2G4AZHHRRLFQFY1S5781NHO9PL5NEC does not exist. (1380386357319)
+com.amazonaws.mturk.service.exception.ObjectDoesNotExistException: Error #1 for RequestId: c7ac6494-35c8-408e-9d8f-c651445ad157 - AWS.MechanicalTurk.HITDoesNotExist: Hit 2G4AZHHRRLFQFY1S5781NHO9PL5NEC does not exist. (1380386357319)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.processErrors(ErrorProcessingFilter.java:105)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.execute(ErrorProcessingFilter.java:48)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.RetryFilter.execute(RetryFilter.java:115)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.sendMessage(CLTExceptionFilter.java:77)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.execute(CLTExceptionFilter.java:62)
+	at com.amazonaws.mturk.service.axis.AsyncRequest.call(AsyncRequest.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+[2013-09-28 12:39:19] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-09-28 12:39:19] INFO  (GetResults.java: 127) - Could not retrieve work successfully

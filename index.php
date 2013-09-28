@@ -718,6 +718,8 @@ The total duration of pauses will be a part of your feedback.
 				}	    		
 	    	}
 
+	    	$("#assignmentId").val(params["assignmentId"]);
+
 	    });
 	</script>        
 </body>
