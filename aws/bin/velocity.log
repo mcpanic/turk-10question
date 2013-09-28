@@ -1,254 +1,97 @@
-2013-09-16 12:29:25,488 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,489 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,489 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,490 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,490 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,490 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,491 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,491 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,492 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,492 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,492 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,493 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,493 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,494 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,494 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,494 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,495 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,495 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,495 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,496 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,496 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,496 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,497 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,497 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,497 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,498 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,498 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,499 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,500 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,500 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,501 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,501 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,502 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,502 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,503 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,503 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,503 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,504 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,504 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,505 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,505 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,506 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,506 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,506 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,507 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,507 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,508 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,508 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,508 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,509 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,509 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,510 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,510 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,510 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,511 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,511 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,511 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,512 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,512 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,512 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,512 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,513 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,513 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,513 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,514 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,514 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,514 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,515 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,515 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,516 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,516 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,517 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,517 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,517 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,518 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,518 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,519 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,519 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,519 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,520 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,520 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,520 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,521 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,521 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,521 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,522 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,522 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,522 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,523 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,523 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,526 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,526 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,527 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,527 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,528 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,528 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,528 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,529 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,529 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,530 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,530 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,530 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,531 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,531 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:25,531 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,666 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,667 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,668 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,668 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,669 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,669 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,670 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,670 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,671 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,671 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,672 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,672 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,672 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,673 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,673 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,674 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,674 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,674 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,675 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,675 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,676 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,715 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,715 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,716 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,716 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,716 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,717 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,717 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,718 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,718 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,718 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,719 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,719 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,720 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,720 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,720 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,721 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,721 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,721 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,722 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,722 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,723 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,723 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,723 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,724 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,724 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,724 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,725 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,725 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,725 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,726 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,726 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,726 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,726 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,727 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,727 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,727 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,728 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,728 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,728 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,728 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,729 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,748 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,748 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,749 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,749 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,749 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,750 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,750 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,750 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,750 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,751 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,751 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,751 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,751 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,752 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,752 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,752 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,752 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,753 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,753 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,753 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,753 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,754 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,754 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,754 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,755 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,755 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,755 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,756 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,756 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,756 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,757 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,757 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,758 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,758 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,758 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,759 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,759 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,759 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,760 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,760 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,761 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,761 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,761 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,762 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,762 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,763 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,763 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,763 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,764 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,764 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,768 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,768 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,769 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,769 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,769 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,770 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,771 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,771 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,772 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,772 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,773 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,773 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,773 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,774 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,774 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,775 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,775 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,775 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,776 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,776 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,776 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,777 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,777 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,778 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,778 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,778 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,779 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,779 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:43,779 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:58,127 - Log4JLogChute initialized using file 'velocity.log'
-2013-09-16 12:29:58,128 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
-2013-09-16 12:29:58,128 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
-2013-09-16 12:29:58,128 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
-2013-09-16 12:29:58,128 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+2013-09-26 15:28:41,476 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:28:41,476 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:28:41,478 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-26 15:28:41,481 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:28:41,482 - Do unicode file recognition:  false
+2013-09-26 15:28:41,482 - FileResourceLoader : adding path '../../mturk'
+2013-09-26 15:28:41,492 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:28:41,493 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:28:41,494 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:28:41,495 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:28:41,496 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:28:41,497 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:28:41,518 - Created '20' parsers.
+2013-09-26 15:28:41,525 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:28:41,525 - Velocimacro : Default library not found.
+2013-09-26 15:28:41,525 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:28:41,525 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:28:41,525 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:28:41,525 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:28:41,537 - ResourceManager : found external_hit.question with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:28:41,543 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-26 15:28:41,543 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-26 15:28:41,543 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-26 15:28:41,543 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-26 15:28:41,543 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:113)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:83)
+	at com.amazonaws.mturk.util.VelocityUtil.doMerge(VelocityUtil.java:34)
+	at com.amazonaws.mturk.addon.HITProperties.getMaxAssignments(HITProperties.java:268)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:226)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 16 more
+2013-09-26 15:28:41,544 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:28:41,544 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:28:41,545 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-26 15:28:41,545 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:28:41,545 - Do unicode file recognition:  false
+2013-09-26 15:28:41,545 - FileResourceLoader : adding path '.'
+2013-09-26 15:28:41,545 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:28:41,546 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:28:41,546 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:28:41,546 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:28:41,546 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:28:41,546 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:28:41,548 - Created '20' parsers.
+2013-09-26 15:28:41,548 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:28:41,548 - Velocimacro : Default library not found.
+2013-09-26 15:28:41,549 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:28:41,549 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:28:41,549 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:28:41,549 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:28:42,865 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:28:43,125 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+28:41,545 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:28:41,545 - Do unicode file recognition:  false
+2013-09-26 15:28:41,545 - FileResourceLoader : adding path '.'
+2013-09-26 15:28:41,545 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:28:41,546 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:28:41,546 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:28:41,546 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:28:41,546 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:28:41,546 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:28:41,548 - Created '20' parsers.
+2013-09-26 15:28:41,548 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:28:41,548 - Velocimacro : Default library not found.
+2013-09-26 15:28:41,549 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:28:41,549 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:28:41,549 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:28:41,549 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:28:42,865 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:28:43,125 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:29:27,381 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-26 15:29:27,381 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-26 15:29:27,381 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-26 15:29:27,381 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-26 15:29:27,382 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
 java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
 	at java.lang.Class.forName0(Native Method)
 	at java.lang.Class.forName(Class.java:249)
@@ -273,35 +116,35 @@ Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
 	... 15 more
-2013-09-16 12:29:58,129 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
-2013-09-16 12:29:58,129 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
-2013-09-16 12:29:58,131 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
-2013-09-16 12:29:58,135 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2013-09-16 12:29:58,136 - Do unicode file recognition:  false
-2013-09-16 12:29:58,136 - FileResourceLoader : adding path '../../real/s3_2'
-2013-09-16 12:29:58,147 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
-2013-09-16 12:29:58,148 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
-2013-09-16 12:29:58,149 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
-2013-09-16 12:29:58,150 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
-2013-09-16 12:29:58,151 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
-2013-09-16 12:29:58,152 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
-2013-09-16 12:29:58,174 - Created '20' parsers.
-2013-09-16 12:29:58,179 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
-2013-09-16 12:29:58,180 - Velocimacro : Default library not found.
-2013-09-16 12:29:58,180 - Velocimacro : allowInline = true : VMs can be defined inline in templates
-2013-09-16 12:29:58,180 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
-2013-09-16 12:29:58,180 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
-2013-09-16 12:29:58,180 - Velocimacro : autoload off : VM system will not automatically reload global library macros
-2013-09-16 12:29:58,188 - ResourceManager : found external_hit.question with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2013-09-16 12:29:58,194 - Log4JLogChute initialized using file 'velocity.log'
-2013-09-16 12:29:58,194 - Log4JLogChute initialized using file 'velocity.log'
-2013-09-16 12:29:58,194 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
-2013-09-16 12:29:58,194 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
-2013-09-16 12:29:58,194 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
-2013-09-16 12:29:58,194 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
-2013-09-16 12:29:58,194 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
-2013-09-16 12:29:58,194 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
-2013-09-16 12:29:58,195 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+2013-09-26 15:29:27,383 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:29:27,383 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:29:27,385 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-26 15:29:27,388 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:29:27,390 - Do unicode file recognition:  false
+2013-09-26 15:29:27,390 - FileResourceLoader : adding path '../../mturk'
+2013-09-26 15:29:27,401 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:29:27,402 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:29:27,403 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:29:27,405 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:29:27,406 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:29:27,407 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:29:27,433 - Created '20' parsers.
+2013-09-26 15:29:27,440 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:29:27,440 - Velocimacro : Default library not found.
+2013-09-26 15:29:27,440 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:29:27,440 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:29:27,440 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:29:27,440 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:29:27,452 - ResourceManager : found external_hit.question with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:29:27,458 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-26 15:29:27,458 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-26 15:29:27,458 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-26 15:29:27,458 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-26 15:29:27,458 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-26 15:29:27,458 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-26 15:29:27,458 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-26 15:29:27,458 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-26 15:29:27,459 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
 java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
 	at java.lang.Class.forName0(Native Method)
 	at java.lang.Class.forName(Class.java:249)
@@ -327,7 +170,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
 	... 16 more
-2013-09-16 12:29:58,195 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+2013-09-26 15:29:27,459 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
 java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
 	at java.lang.Class.forName0(Native Method)
 	at java.lang.Class.forName(Class.java:249)
@@ -353,111 +196,496 @@ Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
 	... 16 more
-2013-09-16 12:29:58,195 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
-2013-09-16 12:29:58,195 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
-2013-09-16 12:29:58,195 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
-2013-09-16 12:29:58,195 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
-2013-09-16 12:29:58,195 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
-2013-09-16 12:29:58,195 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
-2013-09-16 12:29:58,196 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2013-09-16 12:29:58,196 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2013-09-16 12:29:58,196 - Do unicode file recognition:  false
-2013-09-16 12:29:58,196 - Do unicode file recognition:  false
-2013-09-16 12:29:58,196 - FileResourceLoader : adding path '.'
-2013-09-16 12:29:58,196 - FileResourceLoader : adding path '.'
-2013-09-16 12:29:58,196 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
-2013-09-16 12:29:58,196 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
-2013-09-16 12:29:58,196 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
-2013-09-16 12:29:58,196 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
-2013-09-16 12:29:58,196 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
-2013-09-16 12:29:58,196 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
-2013-09-16 12:29:58,196 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
-2013-09-16 12:29:58,196 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
-2013-09-16 12:29:58,196 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
-2013-09-16 12:29:58,196 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
-2013-09-16 12:29:58,197 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
-2013-09-16 12:29:58,197 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
-2013-09-16 12:29:58,198 - Created '20' parsers.
-2013-09-16 12:29:58,198 - Created '20' parsers.
-2013-09-16 12:29:58,198 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
-2013-09-16 12:29:58,198 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
-2013-09-16 12:29:58,198 - Velocimacro : Default library not found.
-2013-09-16 12:29:58,198 - Velocimacro : Default library not found.
-2013-09-16 12:29:58,198 - Velocimacro : allowInline = true : VMs can be defined inline in templates
-2013-09-16 12:29:58,198 - Velocimacro : allowInline = true : VMs can be defined inline in templates
-2013-09-16 12:29:58,198 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
-2013-09-16 12:29:58,198 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
-2013-09-16 12:29:58,198 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
-2013-09-16 12:29:58,198 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
-2013-09-16 12:29:58,198 - Velocimacro : autoload off : VM system will not automatically reload global library macros
-2013-09-16 12:29:58,198 - Velocimacro : autoload off : VM system will not automatically reload global library macros
-2013-09-16 12:29:59,342 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,342 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,353 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,353 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,354 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,354 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,355 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,355 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,356 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,356 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,359 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,359 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,366 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,366 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,367 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,367 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,368 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,368 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,369 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,369 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,369 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,369 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,370 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,370 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,370 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,370 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,371 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,371 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,371 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,371 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,372 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,372 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,373 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,373 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,373 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,373 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,374 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,374 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,374 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,374 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,375 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,375 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,375 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,375 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,376 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,376 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,377 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,377 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,377 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,377 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,378 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,378 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,378 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,378 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,379 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,379 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,379 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,379 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,380 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,380 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,380 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,380 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,381 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,381 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,381 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,381 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,382 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,382 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,382 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
-2013-09-16 12:29:59,382 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:29:27,459 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:29:27,459 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:29:27,459 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:29:27,459 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:29:27,460 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-26 15:29:27,460 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-26 15:29:27,460 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:29:27,460 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:29:27,460 - Do unicode file recognition:  false
+2013-09-26 15:29:27,460 - Do unicode file recognition:  false
+2013-09-26 15:29:27,460 - FileResourceLoader : adding path '.'
+2013-09-26 15:29:27,460 - FileResourceLoader : adding path '.'
+2013-09-26 15:29:27,460 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:29:27,460 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:29:27,461 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:29:27,461 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:29:27,461 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:29:27,461 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:29:27,461 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:29:27,461 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:29:27,461 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:29:27,461 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:29:27,461 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:29:27,461 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:29:27,463 - Created '20' parsers.
+2013-09-26 15:29:27,463 - Created '20' parsers.
+2013-09-26 15:29:27,463 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:29:27,463 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:29:27,463 - Velocimacro : Default library not found.
+2013-09-26 15:29:27,463 - Velocimacro : Default library not found.
+2013-09-26 15:29:27,463 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:29:27,463 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:29:27,463 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:29:27,463 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:29:27,463 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:29:27,463 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:29:27,463 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:29:27,463 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:29:28,686 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:29:28,686 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:29:28,854 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:29:28,854 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:30:35,468 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-26 15:30:35,469 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-26 15:30:35,469 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-26 15:30:35,469 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-26 15:30:35,469 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:144)
+	at com.amazonaws.mturk.addon.HITQuestion.<init>(HITQuestion.java:69)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:185)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 15 more
+2013-09-26 15:30:35,470 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:30:35,470 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:30:35,472 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-26 15:30:35,474 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:30:35,475 - Do unicode file recognition:  false
+2013-09-26 15:30:35,475 - FileResourceLoader : adding path '../../mturk'
+2013-09-26 15:30:35,485 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:30:35,486 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:30:35,487 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:30:35,488 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:30:35,489 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:30:35,490 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:30:35,511 - Created '20' parsers.
+2013-09-26 15:30:35,516 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:30:35,516 - Velocimacro : Default library not found.
+2013-09-26 15:30:35,516 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:30:35,516 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:30:35,516 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:30:35,516 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:30:35,524 - ResourceManager : found external_hit.question with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:30:35,531 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-26 15:30:35,531 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-26 15:30:35,531 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-26 15:30:35,531 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-26 15:30:35,531 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-26 15:30:35,531 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-26 15:30:35,531 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-26 15:30:35,531 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-26 15:30:35,531 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:113)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:83)
+	at com.amazonaws.mturk.util.VelocityUtil.doMerge(VelocityUtil.java:34)
+	at com.amazonaws.mturk.addon.HITProperties.getMaxAssignments(HITProperties.java:268)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:226)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 16 more
+2013-09-26 15:30:35,531 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:113)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:83)
+	at com.amazonaws.mturk.util.VelocityUtil.doMerge(VelocityUtil.java:34)
+	at com.amazonaws.mturk.addon.HITProperties.getMaxAssignments(HITProperties.java:268)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:226)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 16 more
+2013-09-26 15:30:35,532 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:30:35,532 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:30:35,532 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:30:35,532 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:30:35,532 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-26 15:30:35,532 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-26 15:30:35,532 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:30:35,532 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:30:35,532 - Do unicode file recognition:  false
+2013-09-26 15:30:35,532 - Do unicode file recognition:  false
+2013-09-26 15:30:35,532 - FileResourceLoader : adding path '.'
+2013-09-26 15:30:35,532 - FileResourceLoader : adding path '.'
+2013-09-26 15:30:35,532 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:30:35,532 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:30:35,533 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:30:35,533 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:30:35,533 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:30:35,533 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:30:35,533 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:30:35,533 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:30:35,533 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:30:35,533 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:30:35,533 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:30:35,533 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:30:35,535 - Created '20' parsers.
+2013-09-26 15:30:35,535 - Created '20' parsers.
+2013-09-26 15:30:35,535 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:30:35,535 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:30:35,535 - Velocimacro : Default library not found.
+2013-09-26 15:30:35,535 - Velocimacro : Default library not found.
+2013-09-26 15:30:35,535 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:30:35,535 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:30:35,535 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:30:35,535 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:30:35,535 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:30:35,535 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:30:35,535 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:30:35,535 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:30:36,809 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:30:36,809 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:30:37,038 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:30:37,038 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:32:04,884 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-26 15:32:04,884 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-26 15:32:04,885 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-26 15:32:04,885 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-26 15:32:04,885 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:144)
+	at com.amazonaws.mturk.addon.HITQuestion.<init>(HITQuestion.java:69)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:185)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 15 more
+2013-09-26 15:32:04,886 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:32:04,886 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:32:04,889 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-26 15:32:04,892 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:32:04,893 - Do unicode file recognition:  false
+2013-09-26 15:32:04,893 - FileResourceLoader : adding path '../../mturk'
+2013-09-26 15:32:04,905 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:32:04,906 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:32:04,907 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:32:04,908 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:32:04,909 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:32:04,909 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:32:04,930 - Created '20' parsers.
+2013-09-26 15:32:04,935 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:32:04,935 - Velocimacro : Default library not found.
+2013-09-26 15:32:04,935 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:32:04,935 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:32:04,935 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:32:04,935 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:32:04,943 - ResourceManager : found external_hit.question with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:32:04,948 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-26 15:32:04,948 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-26 15:32:04,948 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-26 15:32:04,948 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-26 15:32:04,949 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-26 15:32:04,949 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-26 15:32:04,949 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-26 15:32:04,949 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-26 15:32:04,949 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:113)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:83)
+	at com.amazonaws.mturk.util.VelocityUtil.doMerge(VelocityUtil.java:34)
+	at com.amazonaws.mturk.addon.HITProperties.getMaxAssignments(HITProperties.java:268)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:226)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 16 more
+2013-09-26 15:32:04,949 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:113)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:83)
+	at com.amazonaws.mturk.util.VelocityUtil.doMerge(VelocityUtil.java:34)
+	at com.amazonaws.mturk.addon.HITProperties.getMaxAssignments(HITProperties.java:268)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:226)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 16 more
+2013-09-26 15:32:04,949 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:32:04,949 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:32:04,949 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:32:04,949 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:32:04,949 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-26 15:32:04,949 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-26 15:32:04,950 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:32:04,950 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:32:04,950 - Do unicode file recognition:  false
+2013-09-26 15:32:04,950 - Do unicode file recognition:  false
+2013-09-26 15:32:04,950 - FileResourceLoader : adding path '.'
+2013-09-26 15:32:04,950 - FileResourceLoader : adding path '.'
+2013-09-26 15:32:04,950 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:32:04,950 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:32:04,950 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:32:04,950 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:32:04,950 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:32:04,950 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:32:04,950 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:32:04,950 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:32:04,951 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:32:04,951 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:32:04,951 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:32:04,951 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:32:04,952 - Created '20' parsers.
+2013-09-26 15:32:04,952 - Created '20' parsers.
+2013-09-26 15:32:04,952 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:32:04,952 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:32:04,952 - Velocimacro : Default library not found.
+2013-09-26 15:32:04,952 - Velocimacro : Default library not found.
+2013-09-26 15:32:04,952 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:32:04,952 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:32:04,952 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:32:04,952 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:32:04,952 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:32:04,952 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:32:04,953 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:32:04,953 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:32:06,199 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:32:06,199 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:32:06,379 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:32:06,379 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:33:03,996 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-26 15:33:03,997 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-26 15:33:03,997 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-26 15:33:03,997 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-26 15:33:03,997 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:144)
+	at com.amazonaws.mturk.addon.HITQuestion.<init>(HITQuestion.java:69)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:185)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 15 more
+2013-09-26 15:33:03,998 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:33:03,998 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:33:04,001 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-26 15:33:04,006 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:33:04,007 - Do unicode file recognition:  false
+2013-09-26 15:33:04,007 - FileResourceLoader : adding path '../../mturk'
+2013-09-26 15:33:04,037 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:33:04,038 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:33:04,039 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:33:04,041 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:33:04,042 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:33:04,043 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:33:04,068 - Created '20' parsers.
+2013-09-26 15:33:04,075 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:33:04,075 - Velocimacro : Default library not found.
+2013-09-26 15:33:04,075 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:33:04,075 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:33:04,075 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:33:04,075 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:33:04,088 - ResourceManager : found external_hit.question with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:33:04,094 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-26 15:33:04,094 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-26 15:33:04,094 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-26 15:33:04,094 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-26 15:33:04,094 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-26 15:33:04,094 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-26 15:33:04,094 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-26 15:33:04,094 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-26 15:33:04,094 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:113)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:83)
+	at com.amazonaws.mturk.util.VelocityUtil.doMerge(VelocityUtil.java:34)
+	at com.amazonaws.mturk.addon.HITProperties.getMaxAssignments(HITProperties.java:268)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:226)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 16 more
+2013-09-26 15:33:04,094 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:113)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:83)
+	at com.amazonaws.mturk.util.VelocityUtil.doMerge(VelocityUtil.java:34)
+	at com.amazonaws.mturk.addon.HITProperties.getMaxAssignments(HITProperties.java:268)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:226)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 16 more
+2013-09-26 15:33:04,095 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:33:04,095 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:33:04,095 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:33:04,095 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-26 15:33:04,095 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-26 15:33:04,095 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-26 15:33:04,095 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:33:04,095 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-26 15:33:04,096 - Do unicode file recognition:  false
+2013-09-26 15:33:04,096 - Do unicode file recognition:  false
+2013-09-26 15:33:04,096 - FileResourceLoader : adding path '.'
+2013-09-26 15:33:04,096 - FileResourceLoader : adding path '.'
+2013-09-26 15:33:04,096 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:33:04,096 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-26 15:33:04,097 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:33:04,097 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-26 15:33:04,097 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:33:04,097 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-26 15:33:04,097 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:33:04,097 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-26 15:33:04,097 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:33:04,097 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-26 15:33:04,097 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:33:04,097 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-26 15:33:04,099 - Created '20' parsers.
+2013-09-26 15:33:04,099 - Created '20' parsers.
+2013-09-26 15:33:04,099 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:33:04,099 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-26 15:33:04,099 - Velocimacro : Default library not found.
+2013-09-26 15:33:04,099 - Velocimacro : Default library not found.
+2013-09-26 15:33:04,099 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:33:04,099 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-26 15:33:04,099 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:33:04,099 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-26 15:33:04,099 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:33:04,099 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-26 15:33:04,099 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:33:04,099 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-26 15:33:05,733 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-26 15:33:05,733 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.

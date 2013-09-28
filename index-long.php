@@ -17,7 +17,7 @@ $workerId = $_GET["workerId"];
 $assignmentId = $_GET["assignmentId"];
 
 $video = array();
-$result = $mysqli->query("SELECT * FROM segments WHERE id = '$id'");
+$result = $mysqli->query("SELECT * FROM videos WHERE id = '$id'");
 while($entry = $result->fetch_assoc()){
 	$video = $entry;
 }
@@ -29,16 +29,16 @@ if ($result->num_rows == 1)
 	$didTutorial = TRUE;
 
 $questionArray = array(
-	"1.	The person is reserved",
-	"2.	The person is generally trusting", 
-	"3.	The person tends to be lazy", 
-	"4.	The person is relaxed, handles stress well", 
-	"5.	The person has few artistic interests", 
-	"6.	The person is outgoing, sociable", 
-	"7.	The person tends to find fault with others", 
-	"8.	The person does a thorough job", 
-	"9.	The person gets nervous easily", 
-	"10. The person has an active imagination"
+	"1.	... is reserved",
+	"2.	... is generally trusting", 
+	"3.	... tends to be lazy", 
+	"4.	... is relaxed, handles stress well", 
+	"5.	... has few artistic interests", 
+	"6.	... is outgoing, sociable", 
+	"7.	... tends to find fault with others", 
+	"8.	... does a thorough job", 
+	"9.	... gets nervous easily", 
+	"10.	... has an active imagination"
 );
 ?>
 
@@ -107,7 +107,6 @@ $questionArray = array(
 			font-weight: bold;
 			font-size: 16px;
 			margin-top: 10px;
-			text-align: center;
 		}
         .interviewee-photo img, .interviewer-photo img{
         	max-width: 100%;
@@ -139,8 +138,6 @@ $questionArray = array(
 			/*background: yellow;*/
 			padding: 10px;
 			font-weight: bold;
-			width: 640px;
-			margin-left: 50px;
 		}		
 		.questions {
 			/*margin: 10px;*/
@@ -319,7 +316,7 @@ $questionArray = array(
 			<h3 class="instruction">2. Read the instruction.</h3>
 			<ul>
 			<li>
-			<strong>Think ahead.</strong> We will ask you 10 questions (below) about the person in the video. <br/>
+			<strong>Think ahead.</strong> We will ask you 10 questions (below) about <i>both</i> the interviewee and the interviewer. <br/>
 Read them <i>now</i>, and think ahead how you would answer each question <i>as you watch the video</i>.
 			</li>
 			<br/>
@@ -328,29 +325,30 @@ Read them <i>now</i>, and think ahead how you would answer each question <i>as y
 In other words, avoid answering them based on your prior knowledge of the person.
 			</li>
 			<br/>
-<!-- 			<li>
+			<li>
 			<strong>Concentrate.</strong> We will pause the video for several times. <i>Unpause it as quickly as you can.</i> <br/>
 The total duration of pauses will be a part of your feedback.
 			</li>
-			<br/> -->
+			<br/>
 			</ul>
 			<div>
 				<strong>The 10 questions:</strong><br/>
-				How well do the following statements describe the person in the video? <br/>
+				How well do the following statements describe the interviewer and the interviewee in the video? <br/>
 				(Adjust your browser so that these questions are visible while watching the video.) <br/><br/>
+				  The interviewee (or interviewer) is:<br/>
 				<div class="col-sm-6 col-md-6 col-lg-6">
-				    1. The person is reserved<br/>
-				    2. The person is generally trusting<br/>
-				    3. The person tends to be lazy<br/>
-				    4. The person is relaxed, handles stress well<br/>
-				    5. The person has few artistic interests<br/>					
+				    1. ... is reserved<br/>
+				    2. ... is generally trusting<br/>
+				    3. ... tends to be lazy<br/>
+				    4. ... is relaxed, handles stress well<br/>
+				    5. ... has few artistic interests<br/>					
 				</div>
 				<div class="col-sm-6 col-md-6 col-lg-6">
-				    6. The person is outgoing, sociable<br/>
-				    7. The person tends to find fault with others<br/>
-				    8. The person does a thorough job<br/>
-				    9. The person gets nervous easily<br/>
-				    10. The person has an active imagination<br/>					
+				    6. ... is outgoing, sociable<br/>
+				    7. ... tends to find fault with others<br/>
+				    8. ... does a thorough job<br/>
+				    9. ... gets nervous easily<br/>
+				    10. ... has an active imagination<br/>					
 				</div>				
 			</div>			
 		</div>
@@ -358,10 +356,7 @@ The total duration of pauses will be a part of your feedback.
 
 		<div id="video-player" class="row">
 			<h3 class="instruction">3. Now, watch the video.</h3>
-			<!-- <div id="ytplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div> -->
-			<iframe id="ytplayer" type="text/html" width="640" height="390"
-				src="http://www.youtube.com/embed/"q7IEvfd1oXo"?start=5&end=112&version=3&autoplay=0&controls=1&rel=0&showinfo=0" frameborder="0"></iframe>
-
+			<div id="ytplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
 		    <div id="errorMsg" class="alert alert-danger"></div>
 		</div>
 		<br/>
@@ -369,13 +364,13 @@ The total duration of pauses will be a part of your feedback.
 		<div id="questions" class="row">
 			<h3 class="instruction">4. Answer the 10 questions.</h3>
 			<div class="instruction col-sm-12 col-md-12 col-lg-12">
-				How well do the following statements describe the person in the video?
+				How well do the following statements describe the interviewee and the interviewer in the video?
 			</div>
 			<br/>
 <?php
 
-	    echo "<div class='col-sm-12 col-md-12 col-lg-12'>";
-	    echo "<div class='question-header'><div><span class='interviewee-photo'></span> <br/><span class='desc interviewee-name'></span></div></div>";
+	    echo "<div class='col-sm-6 col-md-6 col-lg-6'>";
+	    echo "<div class='question-header'><div><span class='interviewee-photo'></span> <br/><span class='desc'>Interviewee</span></div></div>";
 	    for($i=0; $i<10; $i++){
 	    	echo "<div class='question'><div class='question-text'>" . $questionArray[$i] . "</div>";
 	    	echo "<label><input type='radio' name='question-interviewee-" . ($i+1) . "' value='1'/> Disagree strongly</label><br/>";
@@ -386,18 +381,18 @@ The total duration of pauses will be a part of your feedback.
 	    	echo "</div>";
 	    }	    
 	    echo "</div>";    	
-		// echo "<div class='col-sm-6 col-md-6 col-lg-6'>";
-		// echo "<div class='question-header'><div><span class='interviewer-photo'></span> <br/><span class='desc'>Interviewer (reporter)</span></div></div>";
-	 //    for($i=0; $i<10; $i++){
-	 //    	echo "<div class='question'><div class='question-text'>" . $questionArray[$i] . "</div>";
-	 //    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='1'/> Disagree strongly</label><br/>";
-	 //    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='2'/> Disagree a little</label><br/>";
-	 //    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='3'/> Neither agree nor disagree</label><br/>";
-	 //    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='4'/> Agree a little</label><br/>";
-	 //    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='5'/> Agree strongly</label><br/>";
-	 //    	echo "</div>";
-	 //    }
-	 //    echo "</div>";
+		echo "<div class='col-sm-6 col-md-6 col-lg-6'>";
+		echo "<div class='question-header'><div><span class='interviewer-photo'></span> <br/><span class='desc'>Interviewer (reporter)</span></div></div>";
+	    for($i=0; $i<10; $i++){
+	    	echo "<div class='question'><div class='question-text'>" . $questionArray[$i] . "</div>";
+	    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='1'/> Disagree strongly</label><br/>";
+	    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='2'/> Disagree a little</label><br/>";
+	    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='3'/> Neither agree nor disagree</label><br/>";
+	    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='4'/> Agree a little</label><br/>";
+	    	echo "<label><input type='radio' name='question-interviewer-" . ($i+1) . "' value='5'/> Agree strongly</label><br/>";
+	    	echo "</div>";
+	    }
+	    echo "</div>";
 ?>
 		</div>
 		<br/>
@@ -438,7 +433,7 @@ The total duration of pauses will be a part of your feedback.
 			<input type="hidden" name="resumedTimestamps" id="resumedTimestamps" value="">
 			<div class="disclaimer">
 				The goal of this study is to understand how people perceive the personality of the others. <br/>
-				This study is a part of research conducted at the Massachusetts Institute of Technology. <br/>
+				This study is a part of research conducted at Massachusetts Institute of Technology. <br/>
 				Your participation is voluntary and you have the right to stop at any time. <br/>
 			</div>
 
@@ -463,12 +458,6 @@ The total duration of pauses will be a part of your feedback.
 
 		function isInt(n) {
 		   return typeof n === 'number' && n % 1 == 0;
-		}
-
-		function formatTime(stringTime){
-			var data = stringTime.split(":");
-			var sec = parseInt(data[0])*60 + parseInt(data[1]);
-			return sec;
 		}
 
 		// Get Parameters
@@ -508,22 +497,21 @@ The total duration of pauses will be a part of your feedback.
 			echo "var isTutorialCompleted = false;";
 ?>
 	    var player;
-		var vidParams = { allowScriptAccess: "always", allowFullScreen: "false" };
+		var vidParams = { allowScriptAccess: "always" };
 		var atts = { id: "ytplayer" };
 		if (debug)
-			swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]) + "&playerapiid=ytplayer&version=3&controls=1&rel=0",
+			swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&playerapiid=ytplayer&version=3&controls=1&rel=0",
                    "ytplayer", "640", "360", "8", null, null, vidParams, atts);
 		else
-			swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]) + "&playerapiid=ytplayer&version=3&controls=0&rel=0",
+			swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&playerapiid=ytplayer&version=3&controls=0&rel=0",
                    "ytplayer", "640", "360", "8", null, null, vidParams, atts);
-
 
 		function onYouTubePlayerReady(playerId) {
 		      player = document.getElementById("ytplayer");
 		      console.log("onPlayerReady");
 		      player.addEventListener("onStateChange", "onPlayerStateChange");
-		      player.cueVideoById({'videoId': video["video_id"], 'startSeconds': formatTime(video["start"]), 'endSeconds': formatTime(video["end"])});
-		      // player.loadVideoById({'videoId': video["video_id"], 'start': formatTime(video["start"]), 'end': formatTime(video["end"])});
+		      player.cueVideoById({'videoId': video["video_id"]});
+		      // player.loadVideoById({'videoId': video["video_id"], 'startSeconds': start, 'endSeconds': start+20});
 		      setInterval(updateytplayerInfo, 600);
 		      updateytplayerInfo();
 		}		      
@@ -534,7 +522,6 @@ The total duration of pauses will be a part of your feedback.
 		var paused_timestamps = [];
 		var resumed_timestamps = [];
 		function updateytplayerInfo(){
-			/*
 			if (player) {
 				if (duration == 0)
 					duration = player.getDuration();
@@ -554,8 +541,7 @@ The total duration of pauses will be a part of your feedback.
 			    		$("#errorMsg").show().html("Video is paused. Please click on the player to resume.");
 			    	}
 			    }    
-			}
-			*/							
+			}							
 		}
 
 	    // 5. The API calls this function when the player's state changes.
@@ -611,7 +597,7 @@ The total duration of pauses will be a part of your feedback.
 	    function addPriorInfo(){
 	    	$(".interviewee-photo").html("<img src='" + pic_url + video["video_id"] + ".jpg'/>");
 	    	$(".interviewee-name").text(video["name"]);
-	    	// $(".interviewee-title").text(video["title"]);
+	    	$(".interviewee-title").text(video["title"]);
 	    	$(".interviewer-photo").html("<img src='img/time_logo2.jpg'/>");
 	    }
 

@@ -4523,3 +4523,173 @@
 [2013-09-21 19:52:26] INFO  (ApproveWork.java: 100) - --- Finished approval ---
 [2013-09-21 19:52:26] INFO  (ApproveWork.java: 101) -   0 assignments approved.
 [2013-09-21 19:52:26] INFO  (ApproveWork.java: 102) -   0 assignments failed to be approved.
+[2013-09-26 15:24:25] INFO  (AbstractCmd.java: 138) - Sandbox override
+[2013-09-26 15:24:28] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-09-26 15:24:28] INFO  (LoadHITs.java: 194) -  Input: ../../mturk/external_hit.input
+[2013-09-26 15:24:28] INFO  (LoadHITs.java: 195) -  Properties: ../../mturk/external_hit.properties
+[2013-09-26 15:24:28] INFO  (LoadHITs.java: 196) -  Question File: ../../mturk/external_hit.question
+[2013-09-26 15:24:28] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-09-26 15:24:30] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-09-26 15:24:30] INFO  (LoadHITs.java: 231) -   Start time: Thu Sep 26 15:24:30 EDT 2013
+[2013-09-26 15:24:30] ERROR (LoadHITs.java: 133) - Error loading HITs: For input string: "US"
+java.lang.NumberFormatException: For input string: "US"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+	at java.lang.Integer.parseInt(Integer.java:449)
+	at java.lang.Integer.<init>(Integer.java:660)
+	at com.amazonaws.mturk.addon.HITProperties.getQualificationIntegerValue(HITProperties.java:318)
+	at com.amazonaws.mturk.addon.HITProperties.getQualificationRequirements(HITProperties.java:291)
+	at com.amazonaws.mturk.service.axis.RequesterService.createHITs(RequesterService.java:1512)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:236)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+[2013-09-26 15:24:51] INFO  (AbstractCmd.java: 138) - Sandbox override
+[2013-09-26 15:24:52] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-09-26 15:24:52] INFO  (LoadHITs.java: 194) -  Input: ../../mturk/external_hit.input
+[2013-09-26 15:24:52] INFO  (LoadHITs.java: 195) -  Properties: ../../mturk/external_hit.properties
+[2013-09-26 15:24:52] INFO  (LoadHITs.java: 196) -  Question File: ../../mturk/external_hit.question
+[2013-09-26 15:24:52] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-09-26 15:24:53] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-09-26 15:24:53] INFO  (LoadHITs.java: 231) -   Start time: Thu Sep 26 15:24:53 EDT 2013
+[2013-09-26 15:24:53] ERROR (LoadHITs.java: 133) - Error loading HITs: For input string: ""US""
+java.lang.NumberFormatException: For input string: ""US""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+	at java.lang.Integer.parseInt(Integer.java:449)
+	at java.lang.Integer.<init>(Integer.java:660)
+	at com.amazonaws.mturk.addon.HITProperties.getQualificationIntegerValue(HITProperties.java:318)
+	at com.amazonaws.mturk.addon.HITProperties.getQualificationRequirements(HITProperties.java:291)
+	at com.amazonaws.mturk.service.axis.RequesterService.createHITs(RequesterService.java:1512)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:236)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+[2013-09-26 15:27:07] INFO  (AbstractCmd.java: 138) - Sandbox override
+[2013-09-26 15:27:10] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-09-26 15:27:10] INFO  (LoadHITs.java: 194) -  Input: ../../mturk/external_hit.input
+[2013-09-26 15:27:10] INFO  (LoadHITs.java: 195) -  Properties: ../../mturk/external_hit.properties
+[2013-09-26 15:27:10] INFO  (LoadHITs.java: 196) -  Question File: ../../mturk/external_hit.question
+[2013-09-26 15:27:10] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-09-26 15:27:12] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-09-26 15:27:12] INFO  (LoadHITs.java: 231) -   Start time: Thu Sep 26 15:27:12 EDT 2013
+[2013-09-26 15:27:12] ERROR (LoadHITs.java: 133) - Error loading HITs: Error executing operation: Error #1 for RequestId: ceb4d330-f9db-4f20-abce-0bd069b4f478 - AWS.MissingParameters: Your request is missing required parameters. Required parameters include LocaleValue. Missing LocaleValue for a HitRequirement with the EqualTo comparator and a qualification type of 00000000000000000071.. (1380223631527 s)
+com.amazonaws.mturk.service.exception.InternalServiceException: Error executing operation: Error #1 for RequestId: ceb4d330-f9db-4f20-abce-0bd069b4f478 - AWS.MissingParameters: Your request is missing required parameters. Required parameters include LocaleValue. Missing LocaleValue for a HitRequirement with the EqualTo comparator and a qualification type of 00000000000000000071.. (1380223631527 s)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.processErrors(ErrorProcessingFilter.java:158)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.execute(ErrorProcessingFilter.java:48)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.RetryFilter.execute(RetryFilter.java:115)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.sendMessage(CLTExceptionFilter.java:77)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.execute(CLTExceptionFilter.java:62)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequests(FilteredAWSService.java:172)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:152)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:116)
+	at com.amazonaws.mturk.service.axis.RequesterServiceRaw.registerHITType(RequesterServiceRaw.java:440)
+	at com.amazonaws.mturk.service.axis.RequesterService.createHITs(RequesterService.java:1512)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:236)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+[2013-09-26 15:27:34] INFO  (AbstractCmd.java: 138) - Sandbox override
+[2013-09-26 15:27:35] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-09-26 15:27:35] INFO  (LoadHITs.java: 194) -  Input: ../../mturk/external_hit.input
+[2013-09-26 15:27:35] INFO  (LoadHITs.java: 195) -  Properties: ../../mturk/external_hit.properties
+[2013-09-26 15:27:35] INFO  (LoadHITs.java: 196) -  Question File: ../../mturk/external_hit.question
+[2013-09-26 15:27:35] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-09-26 15:27:37] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-09-26 15:27:37] INFO  (LoadHITs.java: 231) -   Start time: Thu Sep 26 15:27:37 EDT 2013
+[2013-09-26 15:27:37] ERROR (LoadHITs.java: 133) - Error loading HITs: Error executing operation: Error #1 for RequestId: bd04c0a0-fc3f-498f-be8f-4c01665985ee - AWS.MissingParameters: Your request is missing required parameters. Required parameters include LocaleValue. Missing LocaleValue for a HitRequirement with the EqualTo comparator and a qualification type of 00000000000000000071.. (1380223656405 s)
+com.amazonaws.mturk.service.exception.InternalServiceException: Error executing operation: Error #1 for RequestId: bd04c0a0-fc3f-498f-be8f-4c01665985ee - AWS.MissingParameters: Your request is missing required parameters. Required parameters include LocaleValue. Missing LocaleValue for a HitRequirement with the EqualTo comparator and a qualification type of 00000000000000000071.. (1380223656405 s)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.processErrors(ErrorProcessingFilter.java:158)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.execute(ErrorProcessingFilter.java:48)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.RetryFilter.execute(RetryFilter.java:115)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.sendMessage(CLTExceptionFilter.java:77)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.execute(CLTExceptionFilter.java:62)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequests(FilteredAWSService.java:172)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:152)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:116)
+	at com.amazonaws.mturk.service.axis.RequesterServiceRaw.registerHITType(RequesterServiceRaw.java:440)
+	at com.amazonaws.mturk.service.axis.RequesterService.createHITs(RequesterService.java:1512)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:236)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+[2013-09-26 15:28:40] INFO  (AbstractCmd.java: 138) - Sandbox override
+[2013-09-26 15:28:41] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-09-26 15:28:41] INFO  (LoadHITs.java: 194) -  Input: ../../mturk/external_hit.input
+[2013-09-26 15:28:41] INFO  (LoadHITs.java: 195) -  Properties: ../../mturk/external_hit.properties
+[2013-09-26 15:28:41] INFO  (LoadHITs.java: 196) -  Question File: ../../mturk/external_hit.question
+[2013-09-26 15:28:41] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-09-26 15:28:42] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-09-26 15:28:42] INFO  (LoadHITs.java: 231) -   Start time: Thu Sep 26 15:28:42 EDT 2013
+[2013-09-26 15:28:42] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-09-26 15:28:43] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (1): [6,20] Element or attribute do not match QName production: QName::=(NCName':')?NCName. 
+[2013-09-26 15:28:43] INFO  (LoadHITs.java: 239) -   End time: Thu Sep 26 15:28:43 EDT 2013
+[2013-09-26 15:28:43] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-09-26 15:28:43] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-09-26 15:28:43] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-09-26 15:28:43] ERROR (LoadHITs.java: 254) -   Failed to load 1 HITs.
+[2013-09-26 15:29:26] INFO  (AbstractCmd.java: 138) - Sandbox override
+[2013-09-26 15:29:27] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-09-26 15:29:27] INFO  (LoadHITs.java: 194) -  Input: ../../mturk/external_hit.input
+[2013-09-26 15:29:27] INFO  (LoadHITs.java: 195) -  Properties: ../../mturk/external_hit.properties
+[2013-09-26 15:29:27] INFO  (LoadHITs.java: 196) -  Question File: ../../mturk/external_hit.question
+[2013-09-26 15:29:27] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-09-26 15:29:28] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-09-26 15:29:28] INFO  (LoadHITs.java: 231) -   Start time: Thu Sep 26 15:29:28 EDT 2013
+[2013-09-26 15:29:28] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-09-26 15:29:28] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (1): [6,20] Element or attribute do not match QName production: QName::=(NCName':')?NCName. 
+[2013-09-26 15:29:28] INFO  (LoadHITs.java: 239) -   End time: Thu Sep 26 15:29:28 EDT 2013
+[2013-09-26 15:29:28] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-09-26 15:29:28] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-09-26 15:29:28] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-09-26 15:29:28] ERROR (LoadHITs.java: 254) -   Failed to load 1 HITs.
+[2013-09-26 15:30:35] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-09-26 15:30:35] INFO  (LoadHITs.java: 194) -  Input: ../../mturk/external_hit.input
+[2013-09-26 15:30:35] INFO  (LoadHITs.java: 195) -  Properties: ../../mturk/external_hit.properties
+[2013-09-26 15:30:35] INFO  (LoadHITs.java: 196) -  Question File: ../../mturk/external_hit.question
+[2013-09-26 15:30:35] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-09-26 15:30:36] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-09-26 15:30:36] INFO  (LoadHITs.java: 231) -   Start time: Thu Sep 26 15:30:36 EDT 2013
+[2013-09-26 15:30:36] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-09-26 15:30:37] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (1): [6,20] Element or attribute do not match QName production: QName::=(NCName':')?NCName. 
+[2013-09-26 15:30:37] INFO  (LoadHITs.java: 239) -   End time: Thu Sep 26 15:30:37 EDT 2013
+[2013-09-26 15:30:37] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-09-26 15:30:37] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-09-26 15:30:37] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-09-26 15:30:37] ERROR (LoadHITs.java: 254) -   Failed to load 1 HITs.
+[2013-09-26 15:32:04] INFO  (AbstractCmd.java: 138) - Sandbox override
+[2013-09-26 15:32:04] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-09-26 15:32:04] INFO  (LoadHITs.java: 194) -  Input: ../../mturk/external_hit.input
+[2013-09-26 15:32:04] INFO  (LoadHITs.java: 195) -  Properties: ../../mturk/external_hit.properties
+[2013-09-26 15:32:04] INFO  (LoadHITs.java: 196) -  Question File: ../../mturk/external_hit.question
+[2013-09-26 15:32:04] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-09-26 15:32:06] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-09-26 15:32:06] INFO  (LoadHITs.java: 231) -   Start time: Thu Sep 26 15:32:06 EDT 2013
+[2013-09-26 15:32:06] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-09-26 15:32:06] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (1): [6,20] Element or attribute do not match QName production: QName::=(NCName':')?NCName. 
+[2013-09-26 15:32:06] INFO  (LoadHITs.java: 239) -   End time: Thu Sep 26 15:32:06 EDT 2013
+[2013-09-26 15:32:06] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-09-26 15:32:06] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-09-26 15:32:06] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-09-26 15:32:06] ERROR (LoadHITs.java: 254) -   Failed to load 1 HITs.
+[2013-09-26 15:33:02] INFO  (AbstractCmd.java: 138) - Sandbox override
+[2013-09-26 15:33:04] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-09-26 15:33:04] INFO  (LoadHITs.java: 194) -  Input: ../../mturk/external_hit.input
+[2013-09-26 15:33:04] INFO  (LoadHITs.java: 195) -  Properties: ../../mturk/external_hit.properties
+[2013-09-26 15:33:04] INFO  (LoadHITs.java: 196) -  Question File: ../../mturk/external_hit.question
+[2013-09-26 15:33:04] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-09-26 15:33:05] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-09-26 15:33:05] INFO  (LoadHITs.java: 231) -   Start time: Thu Sep 26 15:33:05 EDT 2013
+[2013-09-26 15:33:05] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-09-26 15:33:06] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2ADOK5UFJ51YW2HZOTPQV1CS4PCA7P
+[2013-09-26 15:33:06] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2YUQ6SVQ8H88B2XHAJFBYCI1RLZ5OO' here: 
+[2013-09-26 15:33:06] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2YUQ6SVQ8H88B2XHAJFBYCI1RLZ5OO
+
+[2013-09-26 15:33:06] INFO  (LoadHITs.java: 239) -   End time: Thu Sep 26 15:33:06 EDT 2013
+[2013-09-26 15:33:06] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-09-26 15:33:06] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-09-26 15:33:06] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
