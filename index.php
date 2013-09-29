@@ -62,6 +62,9 @@ $questionArray = array(
             /*width: 800px;*/
         }
         #preview {
+        	font-weight: bold;
+        }
+        #preview .screenshot{
         	text-align: center;
         }
         #preview img {
@@ -221,9 +224,29 @@ $questionArray = array(
 
 		<div id="preview" class="row">
 			<br/>
-			<div class="col-sm-12 col-md-12 col-lg-12">
+			<div class="col-sm-12 col-md-12 col-lg-12 screenshot">
 				<img src="img/preview-screenshot-clooney.png">
 			</div>
+			<br/>
+			<div>
+				<strong>The 10 questions:</strong><br/>
+				How well do the following statements describe the person in the video? <br/>
+				<br/>
+				<div class="col-sm-6 col-md-6 col-lg-6">
+				    1. The person is reserved<br/>
+				    2. The person is generally trusting<br/>
+				    3. The person tends to be lazy<br/>
+				    4. The person is relaxed, handles stress well<br/>
+				    5. The person has few artistic interests<br/>					
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6">
+				    6. The person is outgoing, sociable<br/>
+				    7. The person tends to find fault with others<br/>
+				    8. The person does a thorough job<br/>
+				    9. The person gets nervous easily<br/>
+				    10. The person has an active imagination<br/>					
+				</div>				
+			</div>					
 		</div>
 
 	<form id="submitForm" action="https://www.mturk.com/mturk/externalSubmit" method="POST">
