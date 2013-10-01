@@ -4757,3 +4757,182 @@ com.amazonaws.mturk.service.exception.ObjectDoesNotExistException: Error #1 for 
 	at java.lang.Thread.run(Thread.java:680)
 [2013-09-28 12:39:19] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
 [2013-09-28 12:39:19] INFO  (GetResults.java: 127) - Could not retrieve work successfully
+[2013-09-29 11:32:35] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-09-29 11:32:35] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-09-29 11:32:36] ERROR (GetResults.java: 166) - Error retrieving HIT results for HIT 1/1 (2G4AZHHRRLFQFY1S5781NHO9PL5NEC): Error #1 for RequestId: 1e87eb3f-9316-4b39-93a5-d3ce16191207 - AWS.MechanicalTurk.HITDoesNotExist: Hit 2G4AZHHRRLFQFY1S5781NHO9PL5NEC does not exist. (1380468757453)
+com.amazonaws.mturk.service.exception.ObjectDoesNotExistException: Error #1 for RequestId: 1e87eb3f-9316-4b39-93a5-d3ce16191207 - AWS.MechanicalTurk.HITDoesNotExist: Hit 2G4AZHHRRLFQFY1S5781NHO9PL5NEC does not exist. (1380468757453)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.processErrors(ErrorProcessingFilter.java:105)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.execute(ErrorProcessingFilter.java:48)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.RetryFilter.execute(RetryFilter.java:115)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.sendMessage(CLTExceptionFilter.java:77)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.execute(CLTExceptionFilter.java:62)
+	at com.amazonaws.mturk.service.axis.AsyncRequest.call(AsyncRequest.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+[2013-09-29 11:32:36] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-09-29 11:32:36] INFO  (GetResults.java: 127) - Could not retrieve work successfully
+[2013-09-29 11:36:18] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-09-29 11:36:18] INFO  (LoadHITs.java: 194) -  Input: ../../mturk-test-3/external_hit.input
+[2013-09-29 11:36:18] INFO  (LoadHITs.java: 195) -  Properties: ../../mturk-test-3/external_hit.properties
+[2013-09-29 11:36:18] INFO  (LoadHITs.java: 196) -  Question File: ../../mturk-test-3/external_hit.question
+[2013-09-29 11:36:18] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-09-29 11:36:19] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-09-29 11:36:20] INFO  (LoadHITs.java: 231) -   Start time: Sun Sep 29 11:36:19 EDT 2013
+[2013-09-29 11:36:20] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-09-29 11:36:20] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2S4JTUHYW2GT4J5FH8WWX169Y5TPKY
+[2013-09-29 11:36:20] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2GDXX2Q45UUK5YCLXYN1YS8OGD6SA2
+[2013-09-29 11:36:20] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=29E1VP9746OQG21V0NH6I051QXHK0M
+[2013-09-29 11:36:20] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2359U8P9Y38TB6BND8LYTM0JTNMGXB
+[2013-09-29 11:36:20] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2EXB0HFL42J108JDLNT7X0IGFXN0L6
+[2013-09-29 11:36:20] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=241KM05BMJTUW8A7Q9G92A7S59REJ3
+[2013-09-29 11:36:20] INFO  (RequesterService.java: 1548) - Created HIT 7: HITId=2FT49F9SSSHXGBXTX8K5S5F8JHTXT0
+[2013-09-29 11:36:20] INFO  (RequesterService.java: 1548) - Created HIT 8: HITId=2M38I9NZW6HEEG2JE6N74869G7RMWV
+[2013-09-29 11:36:20] INFO  (RequesterService.java: 1548) - Created HIT 9: HITId=2LX0OHOVR14ICU27VPTHPCWA6A965P
+[2013-09-29 11:36:20] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2THK2JE1M7PKZJZW6MFZLC04LZ3PWG' here: 
+[2013-09-29 11:36:20] INFO  (RequesterService.java: 1593) - 
+  https://www.mturk.com/mturk/preview?groupId=2THK2JE1M7PKZJZW6MFZLC04LZ3PWG
+
+[2013-09-29 11:36:20] INFO  (LoadHITs.java: 239) -   End time: Sun Sep 29 11:36:20 EDT 2013
+[2013-09-29 11:36:20] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-09-29 11:36:20] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-09-29 11:36:20] INFO  (LoadHITs.java: 243) -   Successfully loaded 9 HITs.
+[2013-09-29 11:37:21] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-09-29 11:37:21] INFO  (LoadHITs.java: 194) -  Input: ../../mturk-test-5/external_hit.input
+[2013-09-29 11:37:21] INFO  (LoadHITs.java: 195) -  Properties: ../../mturk-test-5/external_hit.properties
+[2013-09-29 11:37:21] INFO  (LoadHITs.java: 196) -  Question File: ../../mturk-test-5/external_hit.question
+[2013-09-29 11:37:21] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-09-29 11:37:22] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-09-29 11:37:22] INFO  (LoadHITs.java: 231) -   Start time: Sun Sep 29 11:37:22 EDT 2013
+[2013-09-29 11:37:22] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-09-29 11:37:23] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2GKMIKMN9U8PO8HD3CNXT3SUYVRSBX
+[2013-09-29 11:37:23] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2R6O2GMMEGOOV06HWM9AL2SEI7Z99T
+[2013-09-29 11:37:23] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2I63W5XH0JPP7SGP8UGL3P75KYREK2
+[2013-09-29 11:37:23] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2N9LPHIT3HVWP5YNGIEJ12172CFBJ1
+[2013-09-29 11:37:23] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2DG2AOO2GMMEVY2L083MHIAA25K665
+[2013-09-29 11:37:23] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=280LKH1Q6SVQNRMDW6L6W5OBVPNK1P
+[2013-09-29 11:37:23] INFO  (RequesterService.java: 1548) - Created HIT 7: HITId=27QH88MQU6L53L9HSHIX84AIJSCBUW
+[2013-09-29 11:37:23] INFO  (RequesterService.java: 1548) - Created HIT 8: HITId=2J11LY58B7271AWLP08DC6YFS8L8T4
+[2013-09-29 11:37:23] INFO  (RequesterService.java: 1548) - Created HIT 9: HITId=2UKAC9KSSZVXCC49FALK1OYGNV1K26
+[2013-09-29 11:37:23] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2THK2JE1M7PKZJZW6MFZLC04LZ3PWG' here: 
+[2013-09-29 11:37:23] INFO  (RequesterService.java: 1593) - 
+  https://www.mturk.com/mturk/preview?groupId=2THK2JE1M7PKZJZW6MFZLC04LZ3PWG
+
+[2013-09-29 11:37:23] INFO  (LoadHITs.java: 239) -   End time: Sun Sep 29 11:37:23 EDT 2013
+[2013-09-29 11:37:23] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-09-29 11:37:23] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-09-29 11:37:23] INFO  (LoadHITs.java: 243) -   Successfully loaded 9 HITs.
+[2013-09-29 18:08:28] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-09-29 18:08:28] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-09-29 18:08:33] INFO  (GetResults.java: 162) - Retrieved HIT 1/9, 2S4JTUHYW2GT4J5FH8WWX169Y5TPKY
+[2013-09-29 18:08:33] INFO  (GetResults.java: 162) - Retrieved HIT 2/9, 2GDXX2Q45UUK5YCLXYN1YS8OGD6SA2
+[2013-09-29 18:08:33] INFO  (GetResults.java: 162) - Retrieved HIT 3/9, 29E1VP9746OQG21V0NH6I051QXHK0M
+[2013-09-29 18:08:33] INFO  (GetResults.java: 162) - Retrieved HIT 4/9, 2359U8P9Y38TB6BND8LYTM0JTNMGXB
+[2013-09-29 18:08:33] INFO  (GetResults.java: 162) - Retrieved HIT 5/9, 2EXB0HFL42J108JDLNT7X0IGFXN0L6
+[2013-09-29 18:08:34] INFO  (GetResults.java: 162) - Retrieved HIT 6/9, 241KM05BMJTUW8A7Q9G92A7S59REJ3
+[2013-09-29 18:08:34] INFO  (GetResults.java: 162) - Retrieved HIT 7/9, 2FT49F9SSSHXGBXTX8K5S5F8JHTXT0
+[2013-09-29 18:08:34] INFO  (GetResults.java: 162) - Retrieved HIT 8/9, 2M38I9NZW6HEEG2JE6N74869G7RMWV
+[2013-09-29 18:08:34] INFO  (GetResults.java: 162) - Retrieved HIT 9/9, 2LX0OHOVR14ICU27VPTHPCWA6A965P
+[2013-09-29 18:08:34] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-09-29 18:08:34] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../mturk-test-3/external_hit.results'.
+
+[2013-09-29 18:08:34] INFO  (GetResults.java: 134) - Assignments completed: 24/27 (88%)
+[2013-09-29 18:08:34] INFO  (GetResults.java: 137) -          Time elapsed: 6:32:14 (h:mm:ss)
+[2013-09-29 18:08:34] INFO  (GetResults.java: 142) -   Average submit time: 148.3 seconds
+[2013-09-29 18:08:51] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-09-29 18:08:51] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-09-29 18:08:54] INFO  (GetResults.java: 162) - Retrieved HIT 1/9, 2GKMIKMN9U8PO8HD3CNXT3SUYVRSBX
+[2013-09-29 18:08:55] INFO  (GetResults.java: 162) - Retrieved HIT 2/9, 2R6O2GMMEGOOV06HWM9AL2SEI7Z99T
+[2013-09-29 18:08:55] INFO  (GetResults.java: 162) - Retrieved HIT 3/9, 2I63W5XH0JPP7SGP8UGL3P75KYREK2
+[2013-09-29 18:08:55] INFO  (GetResults.java: 162) - Retrieved HIT 4/9, 2N9LPHIT3HVWP5YNGIEJ12172CFBJ1
+[2013-09-29 18:08:55] INFO  (GetResults.java: 162) - Retrieved HIT 5/9, 2DG2AOO2GMMEVY2L083MHIAA25K665
+[2013-09-29 18:08:55] INFO  (GetResults.java: 162) - Retrieved HIT 6/9, 280LKH1Q6SVQNRMDW6L6W5OBVPNK1P
+[2013-09-29 18:08:55] INFO  (GetResults.java: 162) - Retrieved HIT 7/9, 27QH88MQU6L53L9HSHIX84AIJSCBUW
+[2013-09-29 18:08:55] INFO  (GetResults.java: 162) - Retrieved HIT 8/9, 2J11LY58B7271AWLP08DC6YFS8L8T4
+[2013-09-29 18:08:55] INFO  (GetResults.java: 162) - Retrieved HIT 9/9, 2UKAC9KSSZVXCC49FALK1OYGNV1K26
+[2013-09-29 18:08:55] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-09-29 18:08:56] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../mturk-test-5/external_hit.results'.
+
+[2013-09-29 18:08:56] INFO  (GetResults.java: 134) - Assignments completed: 44/45 (97%)
+[2013-09-29 18:08:56] INFO  (GetResults.java: 137) -          Time elapsed: 6:31:33 (h:mm:ss)
+[2013-09-29 18:08:56] INFO  (GetResults.java: 142) -   Average submit time: 993.6 seconds
+[2013-09-29 19:15:46] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-09-29 19:15:46] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-09-29 19:15:54] INFO  (GetResults.java: 162) - Retrieved HIT 1/9, 2GKMIKMN9U8PO8HD3CNXT3SUYVRSBX
+[2013-09-29 19:15:54] INFO  (GetResults.java: 162) - Retrieved HIT 2/9, 2R6O2GMMEGOOV06HWM9AL2SEI7Z99T
+[2013-09-29 19:15:54] INFO  (GetResults.java: 162) - Retrieved HIT 3/9, 2I63W5XH0JPP7SGP8UGL3P75KYREK2
+[2013-09-29 19:15:54] INFO  (GetResults.java: 162) - Retrieved HIT 4/9, 2N9LPHIT3HVWP5YNGIEJ12172CFBJ1
+[2013-09-29 19:15:55] INFO  (GetResults.java: 162) - Retrieved HIT 5/9, 2DG2AOO2GMMEVY2L083MHIAA25K665
+[2013-09-29 19:15:55] INFO  (GetResults.java: 162) - Retrieved HIT 6/9, 280LKH1Q6SVQNRMDW6L6W5OBVPNK1P
+[2013-09-29 19:15:55] INFO  (GetResults.java: 162) - Retrieved HIT 7/9, 27QH88MQU6L53L9HSHIX84AIJSCBUW
+[2013-09-29 19:15:55] INFO  (GetResults.java: 162) - Retrieved HIT 8/9, 2J11LY58B7271AWLP08DC6YFS8L8T4
+[2013-09-29 19:15:55] INFO  (GetResults.java: 162) - Retrieved HIT 9/9, 2UKAC9KSSZVXCC49FALK1OYGNV1K26
+[2013-09-29 19:15:55] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-09-29 19:15:55] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../mturk-test-5/external_hit.results'.
+
+[2013-09-29 19:15:55] INFO  (GetResults.java: 134) - Assignments completed: 44/45 (97%)
+[2013-09-29 19:15:55] INFO  (GetResults.java: 137) -          Time elapsed: 7:38:32 (h:mm:ss)
+[2013-09-29 19:15:55] INFO  (GetResults.java: 142) -   Average submit time: 993.6 seconds
+[2013-09-29 21:26:26] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-09-29 21:26:26] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-09-29 21:26:30] INFO  (GetResults.java: 162) - Retrieved HIT 1/9, 2GKMIKMN9U8PO8HD3CNXT3SUYVRSBX
+[2013-09-29 21:26:30] INFO  (GetResults.java: 162) - Retrieved HIT 2/9, 2R6O2GMMEGOOV06HWM9AL2SEI7Z99T
+[2013-09-29 21:26:30] INFO  (GetResults.java: 162) - Retrieved HIT 3/9, 2I63W5XH0JPP7SGP8UGL3P75KYREK2
+[2013-09-29 21:26:30] INFO  (GetResults.java: 162) - Retrieved HIT 4/9, 2N9LPHIT3HVWP5YNGIEJ12172CFBJ1
+[2013-09-29 21:26:30] INFO  (GetResults.java: 162) - Retrieved HIT 5/9, 2DG2AOO2GMMEVY2L083MHIAA25K665
+[2013-09-29 21:26:30] INFO  (GetResults.java: 162) - Retrieved HIT 6/9, 280LKH1Q6SVQNRMDW6L6W5OBVPNK1P
+[2013-09-29 21:26:30] INFO  (GetResults.java: 162) - Retrieved HIT 7/9, 27QH88MQU6L53L9HSHIX84AIJSCBUW
+[2013-09-29 21:26:30] INFO  (GetResults.java: 162) - Retrieved HIT 8/9, 2J11LY58B7271AWLP08DC6YFS8L8T4
+[2013-09-29 21:26:30] INFO  (GetResults.java: 162) - Retrieved HIT 9/9, 2UKAC9KSSZVXCC49FALK1OYGNV1K26
+[2013-09-29 21:26:30] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-09-29 21:26:30] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../mturk-test-5/external_hit.results'.
+
+[2013-09-29 21:26:30] INFO  (GetResults.java: 134) - Assignments completed: 44/45 (97%)
+[2013-09-29 21:26:30] INFO  (GetResults.java: 137) -          Time elapsed: 9:49:07 (h:mm:ss)
+[2013-09-29 21:26:30] INFO  (GetResults.java: 142) -   Average submit time: 993.6 seconds
+[2013-09-29 21:26:45] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-09-29 21:26:45] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-09-29 21:26:47] INFO  (GetResults.java: 162) - Retrieved HIT 1/9, 2S4JTUHYW2GT4J5FH8WWX169Y5TPKY
+[2013-09-29 21:26:47] INFO  (GetResults.java: 162) - Retrieved HIT 2/9, 2GDXX2Q45UUK5YCLXYN1YS8OGD6SA2
+[2013-09-29 21:26:47] INFO  (GetResults.java: 162) - Retrieved HIT 3/9, 29E1VP9746OQG21V0NH6I051QXHK0M
+[2013-09-29 21:26:47] INFO  (GetResults.java: 162) - Retrieved HIT 4/9, 2359U8P9Y38TB6BND8LYTM0JTNMGXB
+[2013-09-29 21:26:47] INFO  (GetResults.java: 162) - Retrieved HIT 5/9, 2EXB0HFL42J108JDLNT7X0IGFXN0L6
+[2013-09-29 21:26:48] INFO  (GetResults.java: 162) - Retrieved HIT 6/9, 241KM05BMJTUW8A7Q9G92A7S59REJ3
+[2013-09-29 21:26:48] INFO  (GetResults.java: 162) - Retrieved HIT 7/9, 2FT49F9SSSHXGBXTX8K5S5F8JHTXT0
+[2013-09-29 21:26:48] INFO  (GetResults.java: 162) - Retrieved HIT 8/9, 2M38I9NZW6HEEG2JE6N74869G7RMWV
+[2013-09-29 21:26:48] INFO  (GetResults.java: 162) - Retrieved HIT 9/9, 2LX0OHOVR14ICU27VPTHPCWA6A965P
+[2013-09-29 21:26:48] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-09-29 21:26:48] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../mturk-test-3/external_hit.results'.
+
+[2013-09-29 21:26:48] INFO  (GetResults.java: 134) - Assignments completed: 24/27 (88%)
+[2013-09-29 21:26:48] INFO  (GetResults.java: 137) -          Time elapsed: 9:50:28 (h:mm:ss)
+[2013-09-29 21:26:48] INFO  (GetResults.java: 142) -   Average submit time: 148.3 seconds
+[2013-09-30 00:20:59] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-09-30 00:20:59] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-09-30 00:21:03] INFO  (GetResults.java: 162) - Retrieved HIT 1/9, 2S4JTUHYW2GT4J5FH8WWX169Y5TPKY
+[2013-09-30 00:21:03] INFO  (GetResults.java: 162) - Retrieved HIT 2/9, 2GDXX2Q45UUK5YCLXYN1YS8OGD6SA2
+[2013-09-30 00:21:03] INFO  (GetResults.java: 162) - Retrieved HIT 3/9, 29E1VP9746OQG21V0NH6I051QXHK0M
+[2013-09-30 00:21:03] INFO  (GetResults.java: 162) - Retrieved HIT 4/9, 2359U8P9Y38TB6BND8LYTM0JTNMGXB
+[2013-09-30 00:21:03] INFO  (GetResults.java: 162) - Retrieved HIT 5/9, 2EXB0HFL42J108JDLNT7X0IGFXN0L6
+[2013-09-30 00:21:03] INFO  (GetResults.java: 162) - Retrieved HIT 6/9, 241KM05BMJTUW8A7Q9G92A7S59REJ3
+[2013-09-30 00:21:03] INFO  (GetResults.java: 162) - Retrieved HIT 7/9, 2FT49F9SSSHXGBXTX8K5S5F8JHTXT0
+[2013-09-30 00:21:03] INFO  (GetResults.java: 162) - Retrieved HIT 8/9, 2M38I9NZW6HEEG2JE6N74869G7RMWV
+[2013-09-30 00:21:03] INFO  (GetResults.java: 162) - Retrieved HIT 9/9, 2LX0OHOVR14ICU27VPTHPCWA6A965P
+[2013-09-30 00:21:03] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-09-30 00:21:03] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../mturk-test-3/external_hit.results'.
+
+[2013-09-30 00:21:03] INFO  (GetResults.java: 134) - Assignments completed: 24/27 (88%)
+[2013-09-30 00:21:03] INFO  (GetResults.java: 137) -          Time elapsed: 12:44:43 (h:mm:ss)
+[2013-09-30 00:21:03] INFO  (GetResults.java: 142) -   Average submit time: 148.3 seconds

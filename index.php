@@ -427,6 +427,7 @@ The total duration of pauses will be a part of your feedback.
 		<br/>
 		<div id="demographics" class="row">
 			<h3>5. You're almost done!</h3>
+			<div id="demographics-inner">
 			<div>
 				These questions are optional, but we’d appreciate it if you’ve answered them. Please describe yourself by selecting one answer for each question.
 			</div>
@@ -450,6 +451,7 @@ The total duration of pauses will be a part of your feedback.
 				<label><input type="radio" name="age" value="25-34"/> 25-34</label>
 				<label><input type="radio" name="age" value="35-50"/> 35-50</label>
 				<label><input type="radio" name="age" value="older-than-50"/> Older than 50</label>
+			</div>
 			</div>
 			<div>
 				<div>Please leave any comments about the task:</div>
@@ -677,10 +679,14 @@ The total duration of pauses will be a part of your feedback.
 			        count++;
 			    });
 			    if ($('#questions :radio:checked').length !== count) {
-			        console.log($('#questions :radio:checked').length, "out of", count, "answered");
+			        // console.log($('#questions :radio:checked').length, "out of", count, "answered");
 			    } else {
 			    	$("#taskSub").removeClass("disabled").removeAttr("disabled");
 			    	$("#demographics").show();
+			    	if (isTutorialCompleted)
+			    		$("#demographics-inner").hide();
+			    	else
+			    		$("#demographics-inner").show();
 	        		$("#final").show();
 			    }
 			});
