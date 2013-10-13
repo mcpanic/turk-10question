@@ -222,7 +222,7 @@ $questionArray = array(
 			</div>
 			<br/>
 			<div class="alert alert-danger">
-				This HIT expires in 10 minutes. Please make sure you complete the task in one setting.
+				This HIT expires in 7 minutes. Please make sure you complete the task in one setting.
 			</div>
 		</div>		
 
