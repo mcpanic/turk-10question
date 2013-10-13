@@ -385,7 +385,7 @@ The total duration of pauses will be a part of your feedback.
 		<br/>
 
 		<div id="video-player" class="row">
-			<h3 class="instruction">3. Now, watch the video.</h3>
+			<h3 class="instruction">3. Now, watch the video. (duration: <span class="duration"></span> seconds)</h3>
 			<div id="ytplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
 <!-- 			<iframe id="ytplayer" type="text/html" width="640" height="390"
 				src="http://www.youtube.com/embed/q7IEvfd1oXo?version=3&autoplay=0&controls=0&rel=0&showinfo=0&origin=http://juhokim.com" frameborder="0"></iframe>
@@ -562,7 +562,7 @@ The total duration of pauses will be a part of your feedback.
 		      updateytplayerInfo();
 		}		      
 
-		var duration = 0;
+		// var duration = 0;
 		var position = 0;
 		var paused_times = [];
 		var paused_timestamps = [];
@@ -598,6 +598,7 @@ The total duration of pauses will be a part of your feedback.
 
 	    var externalClicked = false;
 	    var duration = formatTime(video["end"]) - formatTime(video["start"]);
+	    $(".duration").text(duration);
 	    console.log(duration * 1000);
 		function showNext(){
 			setTimeout( function() { 
