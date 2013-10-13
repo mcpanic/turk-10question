@@ -220,6 +220,10 @@ $questionArray = array(
 				We want to understand how people perceive the personality of the others. <br/>
 				This questionnaire will gather data to help answer that question.
 			</div>
+			<br/>
+			<div class="alert alert-danger">
+				This HIT expires in 10 minutes. Please make sure you complete the task in one setting.
+			</div>
 		</div>		
 
 		<div id="preview" class="row">
@@ -591,24 +595,34 @@ The total duration of pauses will be a part of your feedback.
 	    // 5. The API calls this function when the player's state changes.
 	    //    The function indicates that when playing a video (state=1),
 	    //    the player should play for six seconds and then stop.
+
+	    var externalClicked = false;
+	    var duration = formatTime(video["end"]) - formatTime(video["start"]);
+	    console.log(duration * 1000);
+		function showNext(){
+			setTimeout( function() { 
+				$("#questions").show();
+			}, duration * 1000);
+
+		}						
+		function checkExternalClicked(){
+			if (externalClicked)
+				showNext();
+			else
+				setTimeout(checkExternalClicked, 5000);	
+		}
+
 	    function onPlayerStateChange(state) {
 	      	console.log("CHANGE", state);
 	      	if (state == -1){
-	      		/*
 			    setTimeout( function() { 
+			    	var video_url = "http://www.youtube.com/v/" + video["video_id"] + "?start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]);
 			  		if (player.getPlayerState() == -1){
 						$("#errorMsg").show()
-							.html("Cannot see the video? Please open <a target='_blank' href='<?php echo urldecode(stripslashes($video['url'])); ?>&t=" +
-								parseInt(start) + "s'>this link</a>, watch the video for 20 seconds, and answer the question below.");
-						setTimeout( function() { 
-							 videoPlayed = true;
-							 if ($("#instruction").val() != "") {
-							 	$("#taskSub").removeClass('disabled').removeAttr('disabled');
-							 }
-						}, 20000);
+							.html("Cannot see the video? Please open <a target='_blank' id='external-button' href='" + video_url + "'>this link</a>, watch the highlighted segment, and answer the questions below after they are displayed.");
+						checkExternalClicked();
 					}
-				}, 5000);		      		
-				*/
+				}, 10000);		      		
 	      	} else if (state == 1) {
 	      		$("#errorMsg").hide();
 	      		console.log("playing", player.getCurrentTime());
@@ -690,6 +704,12 @@ The total duration of pauses will be a part of your feedback.
 	        		$("#final").show();
 			    }
 			});
+
+	    	$(document).on("click", "#external-button", function(){
+	    		externalClicked = true;
+	    		console.log("external clicked", externalClicked);
+	    		// return false;
+	    	});
 
 	    	$("#tutorial-button").click(function(){
 		    	// $("#tutorial :radio").change(function() {
