@@ -54,7 +54,7 @@ $questionArray = array(
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">		
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,700' rel='stylesheet' type='text/css'>
     <style>
         body {
             padding-top: 20px;
@@ -272,7 +272,7 @@ $questionArray = array(
 			</ul>
 			<div id="tutorial-player">
 				<iframe id="tutplayer" type="text/html" width="640" height="390"
-				  src="http://www.youtube.com/embed/Hty9p4AHPZA?start=58&end=91&version=3&autoplay=0&controls=0&rel=0&showinfo=0&origin=http://juhokim.com" frameborder="0"></iframe>
+				  src="//www.youtube.com/embed/Hty9p4AHPZA?start=58&end=91&version=3&autoplay=0&controls=0&rel=0&showinfo=0&origin=https://juhokim.com" frameborder="0"></iframe>
 			</div>
 			<br/>
 			<div class="col-sm-12 col-md-12 col-lg-12">
@@ -487,7 +487,7 @@ The total duration of pauses will be a part of your feedback.
 	<!-- // <script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script> -->
 	<!-- <link rel="stylesheet" type="text/css" href="js/jquery.qtip.min.css" /> -->
 	<!-- // <script type="text/javascript" src="js/jquery.qtip.min.js"></script> -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!-- <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script> -->
     <script src="js/bootstrap.min.js"></script>
@@ -523,7 +523,7 @@ The total duration of pauses will be a part of your feedback.
 			num_pauses = parseInt(params["pauses"]);
 
 		var video = <?php echo json_encode($video); ?>;
-		var pic_url = "http://groups.csail.mit.edu/mug/time10q/mturk/pics/";
+		var pic_url = "https://groups.csail.mit.edu/mug/time10q/mturk/pics/";
 
 		var isPreview = false;
 		if (typeof params["assignmentId"] === "undefined" || params["assignmentId"] == "ASSIGNMENT_ID_NOT_AVAILABLE")
@@ -545,10 +545,10 @@ The total duration of pauses will be a part of your feedback.
 		var vidParams = { allowScriptAccess: "always", allowFullScreen: "false" };
 		var atts = { id: "ytplayer" };
 		if (debug)
-			swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]) + "&playerapiid=ytplayer&version=3&controls=1&rel=0&origin=http://juhokim.com",
+			swfobject.embedSWF("https://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]) + "&playerapiid=ytplayer&version=3&controls=1&rel=0&origin=https://juhokim.com",
                    "ytplayer", "640", "360", "8", null, null, vidParams, atts);
 		else
-			swfobject.embedSWF("http://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]) + "&playerapiid=ytplayer&version=3&controls=0&rel=0&origin=http://juhokim.com",
+			swfobject.embedSWF("https://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]) + "&playerapiid=ytplayer&version=3&controls=0&rel=0&origin=https://juhokim.com",
                    "ytplayer", "640", "360", "8", null, null, vidParams, atts);
 
 
@@ -617,7 +617,7 @@ The total duration of pauses will be a part of your feedback.
 	      	console.log("CHANGE", state);
 	      	if (state == -1){
 			    setTimeout( function() { 
-			    	var video_url = "http://www.youtube.com/v/" + video["video_id"] + "?start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]);
+			    	var video_url = "https://www.youtube.com/v/" + video["video_id"] + "?start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]);
 			  		if (player.getPlayerState() == -1){
 						$("#errorMsg").show()
 							.html("Cannot see the video? Please open <a target='_blank' id='external-button' href='" + video_url + "'>this link</a>, watch the highlighted segment, and answer the questions below after they are displayed.");
