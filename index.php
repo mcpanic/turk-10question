@@ -272,7 +272,7 @@ $questionArray = array(
 			</ul>
 			<div id="tutorial-player">
 				<iframe id="tutplayer" type="text/html" width="640" height="390"
-				  src="//www.youtube.com/embed/Hty9p4AHPZA?start=58&end=91&version=3&autoplay=0&controls=0&rel=0&showinfo=0&origin=https://juhokim.com" frameborder="0"></iframe>
+				  src="//www.youtube.com/embed/Hty9p4AHPZA?start=58&end=91&version=3&autoplay=0&controls=0&rel=0&showinfo=0&origin=https://people.csail.mit.edu" frameborder="0"></iframe>
 			</div>
 			<br/>
 			<div class="col-sm-12 col-md-12 col-lg-12">
@@ -388,7 +388,7 @@ The total duration of pauses will be a part of your feedback.
 			<h3 class="instruction">3. Now, watch the video. (duration: <span class="duration"></span> seconds)</h3>
 			<div id="ytplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
 <!-- 			<iframe id="ytplayer" type="text/html" width="640" height="390"
-				src="http://www.youtube.com/embed/q7IEvfd1oXo?version=3&autoplay=0&controls=0&rel=0&showinfo=0&origin=http://juhokim.com" frameborder="0"></iframe>
+				src="http://www.youtube.com/embed/q7IEvfd1oXo?version=3&autoplay=0&controls=0&rel=0&showinfo=0&origin=http://people.csail.mit.edu" frameborder="0"></iframe>
  -->
 		    <div id="errorMsg" class="alert alert-danger"></div>
 		</div>
@@ -545,10 +545,10 @@ The total duration of pauses will be a part of your feedback.
 		var vidParams = { allowScriptAccess: "always", allowFullScreen: "false" };
 		var atts = { id: "ytplayer" };
 		if (debug)
-			swfobject.embedSWF("https://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]) + "&playerapiid=ytplayer&version=3&controls=1&rel=0&origin=https://juhokim.com",
+			swfobject.embedSWF("https://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]) + "&playerapiid=ytplayer&version=3&controls=1&rel=0&origin=https://people.csail.mit.edu",
                    "ytplayer", "640", "360", "8", null, null, vidParams, atts);
 		else
-			swfobject.embedSWF("https://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]) + "&playerapiid=ytplayer&version=3&controls=0&rel=0&origin=https://juhokim.com",
+			swfobject.embedSWF("https://www.youtube.com/v/" + video["video_id"] + "?enablejsapi=1&start=" + formatTime(video["start"]) + "&end=" + formatTime(video["end"]) + "&playerapiid=ytplayer&version=3&controls=0&rel=0&origin=https://people.csail.mit.edu",
                    "ytplayer", "640", "360", "8", null, null, vidParams, atts);
 
 
