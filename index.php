@@ -458,7 +458,7 @@ The total duration of pauses will be a part of your feedback.
 			</div>
 			</div>
 			<div>
-				<div>Please leave any comments about the task:</div>
+				<div>Please leave any comments about the task (optional):</div>
 				<textarea id="comment" name="comment" rows="3" cols="50"></textarea>
 			</div>
 		</div>
